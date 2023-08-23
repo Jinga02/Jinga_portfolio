@@ -25,18 +25,18 @@ function App() {
     <SBodyWrapper>
       <Nav />
       <SectionsContainer {...options}>
-        <sectionOne>
+        <section>
           <First />
-        </sectionOne>
-        <sectionTwo>
+        </section>
+        <section>
           <WhoAmI />
-        </sectionTwo>
-        <sectionThree>
-          <MyProjects />
-        </sectionThree>
-        <sectionFour>
+        </section>
+        <section>
           <MyContents />
-        </sectionFour>
+        </section>
+        <section>
+          <MyProjects />
+        </section>
       </SectionsContainer>
     </SBodyWrapper>
   );

@@ -9,34 +9,33 @@ export const SWhoAmIWrapper = styled.div`
     position: relative;
     width: 40%;
     top: 30%;
-    font-size: 6rem;
+    font-size: 5rem;
     margin: 0 0 0 5%;
   }
 `;
 
 export const SContactsWrapper = styled.div`
-  background-color: rgb(120, 120, 120);
-  width: 50%;
+  width: 73%;
   height: 55%;
-  margin-left: 42%;
-  margin-top: -8%;
-  border-radius: 40px;
-  padding: 1%;
-  #skills {
-    position: relative;
-    padding: 0 10%;
-    font-size: 1.7rem;
-    font-weight: 700;
-  }
-  #ssafy {
-    position: relative;
-    padding: 0 10%;
-    font-size: 1.7rem;
-    font-weight: 700;
-  }
+  margin-top: -15%;
+  margin-left: 25%;
+  padding: 2%;
+  text-align: center;
+  // #skills {
+  //   position: relative;
+  //   padding: 0 10%;
+  //   font-size: 1.7rem;
+  //   font-weight: 700;
+  // }
+  // #ssafy {
+  //   position: relative;
+  //   padding: 0 10%;
+  //   font-size: 1.7rem;
+  //   font-weight: 700;
+  // }
   #Introduce {
     position: relative;
-    padding: 0 10%;
+    padding: 10%;
     font-size: 1.7rem;
     font-weight: 700;
   }
@@ -46,5 +45,10 @@ export const SContactsWrapper = styled.div`
     background: linear-gradient(to right top, #000000, #666666);
     color: transparent;
     -webkit-background-clip: text;
+  }
+  #newChallenge,
+  #teamWork,
+  #growth {
+    margin: 2%;
   }
 `;

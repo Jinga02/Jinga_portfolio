@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SNavWrapper = styled.div`
-  width: 80%;
+  width: 100%;
   height: 10%;
   position: fixed;
   top: 5%;
@@ -9,7 +9,7 @@ export const SNavWrapper = styled.div`
   z-index: 1000;
   h2 {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0;
   }
 `;
@@ -17,9 +17,9 @@ export const SNavWrapper = styled.div`
 export const SIconWrapper = styled.div`
   position: absolute;
   top: 0px;
-  left: 70%;
+  left: 67%;
   img {
-    width: 10%;
+    width: 6%;
     margin: 0 5% 0 10%;
   }
 `;

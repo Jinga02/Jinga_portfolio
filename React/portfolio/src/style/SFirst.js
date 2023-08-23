@@ -8,7 +8,7 @@ export const SFirstWrapper = styled.div`
   h1 {
     position: relative;
     top: 30%;
-    font-size: 6rem;
+    font-size: 5rem;
     margin: 0 0 0 5%;
   }
 `;
