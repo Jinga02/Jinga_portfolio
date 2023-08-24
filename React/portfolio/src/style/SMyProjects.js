@@ -7,6 +7,7 @@ export const SMyProjectsWrapper = styled.div`
   color: white;
   h1 {
     position: relative;
+    width: 40%;
     top: 30%;
     font-size: 5rem;
     margin: 0 0 0 5%;

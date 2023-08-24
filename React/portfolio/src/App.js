@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react"; // React 패키지 불러오기 추가
+import React from "react"; // React 패키지 불러오기 추가
 import First from "./component/First";
 import MyContents from "./component/MyContents";
 import MyProjects from "./component/MyProjects";
 import Nav from "./component/Nav";
 import WhoAmI from "./component/WhoAmI";
 import { SBodyWrapper } from "./style/SApp";
-import { SectionsContainer, Section } from "react-fullpage";
+import { SectionsContainer } from "react-fullpage";
 
 function App() {
   let options = {
