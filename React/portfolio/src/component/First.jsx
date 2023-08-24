@@ -1,7 +1,7 @@
 import React from "react";
 
 import { SFirstWrapper, SVideo } from "../style/SFirst";
-import video from "../background.mp4";
+import video from "../asset/background.mp4";
 
 const First = () => {
   return (

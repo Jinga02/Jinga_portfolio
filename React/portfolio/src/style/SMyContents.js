@@ -5,9 +5,9 @@ export const SMyContentsWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   color: white;
-  h1 {
+  #title {
     position: relative;
-    width: 40%;
+    width: 30%;
     top: 30%;
     font-size: 4rem;
     margin: 0 0 0 5%;
@@ -16,7 +16,6 @@ export const SMyContentsWrapper = styled.div`
 
 export const SSkillsWrapper = styled.div`
   position: relative;
-  top: -18%;
   width: 50%;
   margin-left: 29%;
   #skills {
@@ -48,7 +47,6 @@ export const SSkillsWrapper = styled.div`
 
 export const SSkillsDetailWrapper = styled.div`
   position: relative;
-  top: -20%;
   width: 60%;
   height: 60%;
   margin-left: 33%;
@@ -124,7 +122,7 @@ export const STypeScriptWrapper = styled.div`
 
 export const SReactWrapper = styled.div`
   position: relative;
-  top: -40%;
+  bottom: 50%;
   left: 0;
   width: 50%;
   height: 50%;
@@ -152,7 +150,7 @@ export const SReactWrapper = styled.div`
 
 export const SVueWrapper = styled.div`
   position: relative;
-  top: -90%;
+  bottom: 100%;
   left: 50%;
   width: 50%;
   height: 50%;
