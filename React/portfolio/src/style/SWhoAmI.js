@@ -5,25 +5,24 @@ export const SWhoAmIWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   color: white;
-  position: relative;
   #title {
-    position: relative;
     top: 30%;
-    width: 30%;
-    font-size: 4rem;
+    width: 25%;
+    font-size: 5rem;
     margin: 0 0 0 5%;
   }
   #Introduce {
-    // position: relative;
+    position: absolute;
+    top: 25%;
     width: 70%;
     height: 55%;
     margin-left: 25%;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     font-weight: 700;
   }
   span {
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(to right top, #000000, #666666);
     color: transparent;
@@ -31,28 +30,9 @@ export const SWhoAmIWrapper = styled.div`
   }
   #newChallenge,
   #teamWork,
-  #growth {
-    margin: 2%;
-  }
-`;
-
-export const SContactsWrapper = styled.div`
-  #Introduce {
-    position: relative;
-    padding: 10%;
-    font-size: 1.7rem;
-    font-weight: 700;
-  }
-  span {
-    font-size: 40px;
-    font-weight: 700;
-    background: linear-gradient(to right top, #000000, #666666);
-    color: transparent;
-    -webkit-background-clip: text;
-  }
-  #newChallenge,
-  #teamWork,
-  #growth {
+  #growth,
+  #refactoring,
+  #clean {
     margin: 2%;
   }
 `;

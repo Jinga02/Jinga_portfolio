@@ -7,6 +7,10 @@ import {
   SVueWrapper,
   STypeScriptWrapper,
 } from "../style/SMyContents";
+import { STitleWrapper } from "../style/SMyProjects";
+import { SVideo } from "../style/SFirst";
+import video from "../asset/space.mp4";
+
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -27,9 +31,11 @@ const MyContents = () => {
   ];
   return (
     <SMyContentsWrapper>
-      <h1 id="title">새로운 지식을</h1>
-      <h1 id="title">탐구하는</h1>
-      <h1 id="title">개발자</h1>
+      <STitleWrapper>
+        <h1 id="title">새로운 지식을</h1>
+        <h1 id="title">탐구하는</h1>
+        <h1 id="title">개발자</h1>
+      </STitleWrapper>
       <SSkillsWrapper>
         <Swiper
           id="skills"
@@ -101,6 +107,9 @@ const MyContents = () => {
           </p>
         </SVueWrapper>
       </SSkillsDetailWrapper>
+      {/* <SVideo autoPlay loop muted className="video" type="video/mp4">
+        <source src={video} type="video/mp4" />
+      </SVideo> */}
     </SMyContentsWrapper>
   );
 };

@@ -1,24 +1,32 @@
 import styled from "styled-components";
 
 export const SFirstWrapper = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   color: white;
-
-  h1 {
-    position: relative;
+  img {
+    position: absolute;
     top: 30%;
-    font-size: 5rem;
-    margin: 0 0 0 5%;
+    right: 10%;
   }
 `;
 
 export const SVideo = styled.video`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
+  object-fit: fill;
   z-index: -1;
+`;
+
+export const STitleWrapper = styled.div`
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  height: 50%;
+  #title {
+    width: 100%;
+    top: 25%;
+    font-size: 6rem;
+    margin: 0 0 0 5%;
+  }
 `;

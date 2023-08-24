@@ -1,43 +1,41 @@
-import React from "react"; // React 패키지 불러오기 추가
+import React from "react";
 import First from "./component/First";
 import MyContents from "./component/MyContents";
 import MyProjects from "./component/MyProjects";
-import Nav from "./component/Nav";
 import WhoAmI from "./component/WhoAmI";
 import { SBodyWrapper } from "./style/SApp";
-import { SectionsContainer } from "react-fullpage";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCube, Pagination } from "swiper/modules";
+import Nav from "./component/Nav";
+import { Navigation } from "swiper/modules";
+import "swiper/css/navigation";
+import "swiper/css/effect-cube";
+import "swiper/css/pagination";
 
 function App() {
-  let options = {
-    activeClass: "active",
-    anchors: ["sectionOne", "sectionTwo", "sectionThree", "sectionFour"],
-    arrowNavigation: true,
-    className: "SectionContainer",
-    delay: 700,
-    navigation: true,
-    scrollBar: false,
-    sectionClassName: "Section",
-    sectionPaddingTop: "0",
-    sectionPaddingBottom: "0",
-    verticalAlign: false,
-  };
   return (
     <SBodyWrapper>
       <Nav />
-      <SectionsContainer {...options}>
-        <section>
+      <Swiper
+        effect={"cube"}
+        grabCursor={true}
+        pagination={true}
+        navigation={true}
+        modules={[EffectCube, Pagination, Navigation]}
+      >
+        <SwiperSlide>
           <First />
-        </section>
-        <section>
+        </SwiperSlide>
+        <SwiperSlide>
           <WhoAmI />
-        </section>
-        <section>
+        </SwiperSlide>
+        <SwiperSlide>
           <MyContents />
-        </section>
-        <section>
+        </SwiperSlide>
+        <SwiperSlide>
           <MyProjects />
-        </section>
-      </SectionsContainer>
+        </SwiperSlide>
+      </Swiper>
     </SBodyWrapper>
   );
 }

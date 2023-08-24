@@ -5,17 +5,22 @@ export const SMyContentsWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   color: white;
+`;
+export const STitleWrapper = styled.div`
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: 50%;
   #title {
-    position: relative;
-    width: 30%;
-    top: 30%;
-    font-size: 4rem;
+    width: 25%;
+    top: 25%;
+    font-size: 5rem;
     margin: 0 0 0 5%;
   }
 `;
-
 export const SSkillsWrapper = styled.div`
-  position: relative;
+  position: absolute;
+  top: 20%;
   width: 50%;
   margin-left: 29%;
   #skills {
@@ -46,7 +51,8 @@ export const SSkillsWrapper = styled.div`
 `;
 
 export const SSkillsDetailWrapper = styled.div`
-  position: relative;
+  position: absolute;
+  top: 30%;
   width: 60%;
   height: 60%;
   margin-left: 33%;

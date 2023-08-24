@@ -3,8 +3,8 @@ import { SNavWrapper, SIconWrapper } from "../style/SNav";
 const Nav = () => {
   return (
     <SNavWrapper>
-      <h2>프론트엔드 개발자</h2>
-      <h2>진재환</h2>
+      <h2>Frontend Developer</h2>
+      <h2>Jin JaeHwan</h2>
       <SIconWrapper>
         <a href="https://github.com/Jinga02" target="_blank">
           <img
