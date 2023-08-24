@@ -9,17 +9,17 @@ export const SMyContentsWrapper = styled.div`
     position: relative;
     width: 40%;
     top: 30%;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0 0 0 5%;
   }
 `;
 
 export const SSkillsWrapper = styled.div`
+  position: relative;
+  top: -18%;
   width: 50%;
-  margin-top: -7%;
   margin-left: 29%;
   #skills {
-    position: relative;
     margin-left: 9%;
   }
   #skill {
@@ -47,6 +47,8 @@ export const SSkillsWrapper = styled.div`
 `;
 
 export const SSkillsDetailWrapper = styled.div`
+  position: relative;
+  top: -20%;
   width: 60%;
   height: 60%;
   margin-left: 33%;
@@ -122,7 +124,7 @@ export const STypeScriptWrapper = styled.div`
 
 export const SReactWrapper = styled.div`
   position: relative;
-  top: -45%;
+  top: -40%;
   left: 0;
   width: 50%;
   height: 50%;
@@ -150,7 +152,7 @@ export const SReactWrapper = styled.div`
 
 export const SVueWrapper = styled.div`
   position: relative;
-  top: -95%;
+  top: -90%;
   left: 50%;
   width: 50%;
   height: 50%;
