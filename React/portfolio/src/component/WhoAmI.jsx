@@ -18,7 +18,7 @@ const WhoAmI = () => (
       <span id="newChallenge"> 새로운 도전</span>
       <span id="teamWork">협업 능력 향상</span>
       <span id="clean">클린 코드</span>
-      <span id="growth">개발자로서의 성장을</span>
+      <span id="growth">개발자로서의 성장</span>
       <br /> <br />이 모든 가치를 함께 지켜나가며 발전하는 모습을
       보여드리겠습니다
     </p>
