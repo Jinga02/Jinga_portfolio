@@ -3,23 +3,13 @@ import styled from "styled-components";
 export const SBodyWrapper = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #333333;
+  background: linear-gradient(20deg, rgb(20, 20, 20), rgb(80, 80, 80));
   margin: 0;
   padding: 0;
   overflow: hidden;
-
   .swiper-cube-shadow {
     display: none;
   }
-  // .swiper-pagination-bullet {
-  //   color: white;
-  // }
-  // .swiper-pagination-bullet-active {
-  //   color: white;
-  // }
-  // :root {
-  //   --swiper-theme-color: white;
-  // }
   .swiper-button-next,
   .swiper-button-prev {
     color: gray;
@@ -53,4 +43,13 @@ export const SBodyWrapper = styled.div`
       transform: translateY(-50%) scale(1);
     }
   }
+`;
+
+export const SBottomVideo = styled.video`
+  position: absolute;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 20%;
+  object-fit: fill;
 `;

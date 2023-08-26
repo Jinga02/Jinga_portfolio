@@ -1,6 +1,6 @@
 import React from "react";
-import { SFirstWrapper, SVideo } from "../style/SFirst";
-import video from "../asset/space.mp4";
+import { SFirstWrapper } from "../style/SFirst";
+
 import { STitleWrapper } from "../style/SFirst";
 
 const First = () => {

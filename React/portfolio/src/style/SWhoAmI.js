@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const SWhoAmIWrapper = styled.div`
-  background-color: #333333;
   width: 100vw;
   height: 100vh;
+
   color: white;
-  #title {
+  #whoAmI {
     top: 30%;
     width: 25%;
     font-size: 5rem;
@@ -13,7 +13,7 @@ export const SWhoAmIWrapper = styled.div`
   }
   #Introduce {
     position: absolute;
-    top: 25%;
+    top: 35%;
     width: 70%;
     height: 55%;
     margin-left: 25%;
@@ -24,15 +24,15 @@ export const SWhoAmIWrapper = styled.div`
   span {
     font-size: 3rem;
     font-weight: 700;
-    background: linear-gradient(to right top, #000000, #666666);
-    color: transparent;
-    -webkit-background-clip: text;
   }
   #newChallenge,
   #teamWork,
   #growth,
-  #refactoring,
   #clean {
+    font-size: 3.5rem;
     margin: 2%;
+    background: linear-gradient(to right top, #000000, #222222);
+    color: transparent;
+    -webkit-background-clip: text;
   }
 `;

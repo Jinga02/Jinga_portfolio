@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const SNavWrapper = styled.div`
-  width: 100%;
+  width: 80%;
   height: 10%;
   position: fixed;
   top: 5%;
-  margin-left: 6%;
+  left: 10%;
   z-index: 1000;
   h2 {
     color: white;
@@ -17,9 +17,9 @@ export const SNavWrapper = styled.div`
 export const SIconWrapper = styled.div`
   position: absolute;
   top: 0px;
-  left: 67%;
+  left: 80%;
   img {
-    width: 6%;
-    margin: 0 5% 0 10%;
+    width: 10%;
+    margin: 1% 5% 0 10%;
   }
 `;

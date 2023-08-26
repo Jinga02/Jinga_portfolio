@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export const SMyProjectsWrapper = styled.div`
   width: 100vw;
@@ -8,35 +9,47 @@ export const SMyProjectsWrapper = styled.div`
 
 export const STitleWrapper = styled.div`
   position: absolute;
-  top: 30%;
+  top: 35%;
   width: 100%;
   height: 50%;
-  #title {
+  #myProject {
     width: 25%;
-    top: 25%;
+
     font-size: 5rem;
     margin: 0 0 0 5%;
   }
 `;
-export const SProjectWrapper = styled.div`
+
+export const SSwiper = styled(Swiper)`
   position: absolute;
-  top: 20%;
-  width: 100%;
+  top: 25%;
+  width: 50%;
   height: 50%;
+  margin: 0 0 5% 35%;
 `;
-export const SMovieWrapper = styled.div`
-  width: 60%;
-  height: 50%;
-  margin: 0 0 5% 33%;
-  b {
-    color: blue;
+
+export const SSwiperSlide = styled(SwiperSlide)`
+  width: 100%;
+  height: 100%;
+  padding: 2% 3% 0 3%;
+  border-radius:20px;
+  background: linear-gradient(20deg, rgb(20, 20, 20), rgb(80, 80, 80));
   }
 `;
 
 export const SMovieTitle = styled.div`
+  display: flex;
   h2 {
     font-size: 2rem;
     margin: 1% 0;
+  }
+  img {
+    width: 60px;
+    height: 25px;
+    margin: auto 0.5%;
+  }
+  b {
+    color: blue;
   }
 `;
 export const SMovieText = styled.div`
@@ -54,22 +67,29 @@ export const SMovieText = styled.div`
     height: 25px;
     margin: auto 0.5%;
   }
-`;
-
-export const SCritWrapper = styled.div`
-  width: 60%;
-  height: 50%;
-  margin: 0 0 0 33%;
-  b {
-    color: green;
+  h2 {
+    width: 100%;
+    position: relative;
+    background-color: red;
+    top: 100px;
+    right: 88%;
   }
 `;
 
 export const SCritTitle = styled.div`
   display: flex;
+  padding: 2%;
   h2 {
     font-size: 2rem;
     margin: 1% 0;
+  }
+  b {
+    color: #33ff33;
+  }
+  img {
+    width: 60px;
+    height: 25px;
+    margin: auto 0.5%;
   }
 `;
 
@@ -92,10 +112,9 @@ export const SCritText = styled.div`
 `;
 
 export const SProjectVideo = styled.video`
-  width: 600px;
-  height: 100%;
-  // position: relative; // 변경된 부분
-
+  width: 100%;
+  height: 80%;
+  z-index: -1;
   object-fit: fill;
   border-radius: 10px;
 `;

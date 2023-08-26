@@ -1,19 +1,17 @@
 import styled, { keyframes } from "styled-components";
 
 export const SMyContentsWrapper = styled.div`
-  background-color: #333333;
   width: 100vw;
   height: 100vh;
   color: white;
 `;
 export const STitleWrapper = styled.div`
   position: absolute;
-  top: 30%;
+  top: 35%;
   width: 100%;
   height: 50%;
-  #title {
+  #myContent {
     width: 25%;
-    top: 25%;
     font-size: 5rem;
     margin: 0 0 0 5%;
   }

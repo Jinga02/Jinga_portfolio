@@ -6,10 +6,8 @@ import {
   SReactWrapper,
   SVueWrapper,
   STypeScriptWrapper,
+  STitleWrapper,
 } from "../style/SMyContents";
-import { STitleWrapper } from "../style/SMyProjects";
-import { SVideo } from "../style/SFirst";
-import video from "../asset/space.mp4";
 
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -32,9 +30,9 @@ const MyContents = () => {
   return (
     <SMyContentsWrapper>
       <STitleWrapper>
-        <h1 id="title">새로운 지식을</h1>
-        <h1 id="title">탐구하는</h1>
-        <h1 id="title">개발자</h1>
+        <h1 id="myContent">새로운 지식을</h1>
+        <h1 id="myContent">탐구하는</h1>
+        <h1 id="myContent">개발자</h1>
       </STitleWrapper>
       <SSkillsWrapper>
         <Swiper
