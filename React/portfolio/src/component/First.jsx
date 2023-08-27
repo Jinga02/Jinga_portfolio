@@ -1,22 +1,35 @@
-import React from "react";
-import { SFirstWrapper } from "../style/SFirst";
-
-import { STitleWrapper } from "../style/SFirst";
+import React, { useEffect, useState } from "react";
+import {
+  SFirstWrapper,
+  STopWrapper,
+  SBottomWrapper,
+  STextWrapper,
+} from "../style/SFirst";
 
 const First = () => {
+  const first = "";
+  const two = "welcomeMessage(name:string):void{";
+  const three =
+    "    const message: string = `환영합니다 ${name}의 포트폴리오 입니다`;";
+  const four = "    console.log(message);";
+  const five = "}";
+  const six = "welcomeMessage(userName);";
+
   return (
     <SFirstWrapper>
-      <STitleWrapper>
-        {/* <h1 id="title">Frontend개발자 진재환의</h1>
-        <h1 id="title">개발 세계 탐험기</h1> */}
-      </STitleWrapper>
-      {/* <img
-        src="https://github.com/Jinga02/Jinga_portfolio/assets/110621233/7d39199a-57d0-450c-9bbe-e75ffd848d2c"
+      <STopWrapper>
+        <h1 id="top">FRONT-END DEV</h1>
+        <h1 id="top">FRONT-END DEV</h1>
+      </STopWrapper>
+      <img
+        src="https://github.com/Jinga02/Jinga_portfolio/assets/110621233/236f8213-1430-45b1-ae9a-cfeb8ba7a711"
         alt=""
-      /> */}
-      {/* <SVideo autoPlay loop muted className="video" type="video/mp4">
-        <source src={video} type="video/mp4" />
-      </SVideo> */}
+      />
+      <STextWrapper></STextWrapper>
+      <SBottomWrapper>
+        <h1 id="bottom">JIN JAEHWAN</h1>
+        <h1 id="bottom">JIN JAEHWAN</h1>
+      </SBottomWrapper>
     </SFirstWrapper>
   );
 };

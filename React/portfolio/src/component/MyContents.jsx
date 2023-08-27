@@ -30,9 +30,9 @@ const MyContents = () => {
   return (
     <SMyContentsWrapper>
       <STitleWrapper>
-        <h1 id="myContent">새로운 지식을</h1>
-        <h1 id="myContent">탐구하는</h1>
-        <h1 id="myContent">개발자</h1>
+        <p id="myContent">새로운 지식을</p>
+        <p id="myContent">탐구하는</p>
+        <p id="myContent">개발자</p>
       </STitleWrapper>
       <SSkillsWrapper>
         <Swiper

@@ -3,12 +3,13 @@ import styled from "styled-components";
 export const SWhoAmIWrapper = styled.div`
   width: 100vw;
   height: 100vh;
+  color: #eeeeee;
 
-  color: white;
   #whoAmI {
     top: 30%;
     width: 25%;
     font-size: 5rem;
+    font-weight: 700;
     margin: 0 0 0 5%;
   }
   #Introduce {
@@ -21,7 +22,7 @@ export const SWhoAmIWrapper = styled.div`
     font-size: 2.5rem;
     font-weight: 700;
   }
-  span {
+  #frontend {
     font-size: 3rem;
     font-weight: 700;
   }
@@ -29,10 +30,12 @@ export const SWhoAmIWrapper = styled.div`
   #teamWork,
   #growth,
   #clean {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin: 2%;
-    background: linear-gradient(to right top, #000000, #222222);
+    // color: #eeeeee;
+    // font-weight: 1000;
+    text-shaodw: 1px white white;
     color: transparent;
-    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px white;
   }
 `;

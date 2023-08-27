@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const SBodyWrapper = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background: linear-gradient(20deg, rgb(20, 20, 20), rgb(80, 80, 80));
+  background-color: #141414;
   margin: 0;
   padding: 0;
   overflow: hidden;

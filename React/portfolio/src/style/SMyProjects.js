@@ -9,12 +9,13 @@ export const SMyProjectsWrapper = styled.div`
 
 export const STitleWrapper = styled.div`
   position: absolute;
-  top: 35%;
+  top: 40%;
   width: 100%;
   height: 50%;
   #myProject {
     width: 25%;
     font-size: 5rem;
+    font-weight: 1000;
     margin: 0 0 0 5%;
   }
 `;

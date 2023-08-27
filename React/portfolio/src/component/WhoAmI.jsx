@@ -4,10 +4,10 @@ import { SWhoAmIWrapper } from "../style/SWhoAmI";
 const WhoAmI = () => (
   <SWhoAmIWrapper>
     <STitleWrapper>
-      <h1 id="whoAmI">함께가치</h1>
-      <h1 id="whoAmI">소통을 </h1>
-      <h1 id="whoAmI">중요시하는</h1>
-      <h1 id="whoAmI">개발자</h1>
+      <p id="whoAmI">함께가치</p>
+      <p id="whoAmI">소통을 </p>
+      <p id="whoAmI">중요시하는</p>
+      <p id="whoAmI">개발자</p>
     </STitleWrapper>
     <p id="Introduce">
       <span id="frontend">

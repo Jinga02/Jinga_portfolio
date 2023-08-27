@@ -1,20 +1,26 @@
-import { SNavWrapper, SIconWrapper } from "../style/SNav";
+import { SNavWrapper, SIconWrapper, SHtwo, SHone } from "../style/SNav";
 
 const Nav = () => {
   return (
     <SNavWrapper>
-      <h2>Frontend Developer</h2>
-      <h2>Jin JaeHwan</h2>
+      <SHtwo>
+        <h2 id="dev">Frontend Developer</h2>
+        <h2 id="dev">Frontend Developer</h2>
+      </SHtwo>
+      <SHone>
+        <h1 id="name">Jin JaeHwan</h1>
+        <h1 id="name">Jin JaeHwan</h1>
+      </SHone>
       <SIconWrapper>
         <a href="https://github.com/Jinga02" target="_blank">
           <img
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            src="https://github.com/Jinga02/MoviePjt/assets/110621233/a4549039-2711-44cd-8892-867b0f224618"
             alt="깃허브 아이콘"
           />
         </a>
         <a href="https://velog.io/@jjh099" target="_blank">
           <img
-            src="https://github.com/Jinga02/Review/assets/110621233/638267c6-847d-4330-b419-986b928eee79"
+            src="https://github.com/Jinga02/MoviePjt/assets/110621233/b4867016-cb2b-41c2-9505-1ecbb3453c6f"
             alt="벨로그 아이콘"
           />
         </a>
@@ -23,7 +29,7 @@ const Nav = () => {
           target="_blank"
         >
           <img
-            src="https://github.com/Jinga02/Review/assets/110621233/a6fcccf4-6371-4c22-98a9-f0dd9a499272"
+            src="https://github.com/Jinga02/MoviePjt/assets/110621233/17121056-dbd5-4843-ac68-0f27a5358e83"
             alt="메일"
           />
         </a>

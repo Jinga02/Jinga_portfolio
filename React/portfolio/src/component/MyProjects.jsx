@@ -19,9 +19,9 @@ const MyProjects = () => {
   return (
     <SMyProjectsWrapper>
       <STitleWrapper>
-        <h1 id="myProject">도전을</h1>
-        <h1 id="myProject">두려워하지 않고</h1>
-        <h1 id="myProject">즐기는 개발자</h1>
+        <p id="myProject">도전을</p>
+        <p id="myProject">두려워하지 않고</p>
+        <p id="myProject">즐기는 개발자</p>
       </STitleWrapper>
       <SSwiper
         effect={"cards"}

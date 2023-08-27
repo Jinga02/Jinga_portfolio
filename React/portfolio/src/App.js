@@ -15,7 +15,6 @@ import "swiper/css/pagination";
 function App() {
   return (
     <SBodyWrapper>
-      <Nav />
       <Swiper
         effect={"cube"}
         grabCursor={true}
@@ -29,12 +28,15 @@ function App() {
           <First />
         </SwiperSlide>
         <SwiperSlide>
+          <Nav />
           <WhoAmI />
         </SwiperSlide>
         <SwiperSlide>
+          <Nav />
           <MyContents />
         </SwiperSlide>
         <SwiperSlide>
+          <Nav />
           <MyProjects />
         </SwiperSlide>
       </Swiper>
