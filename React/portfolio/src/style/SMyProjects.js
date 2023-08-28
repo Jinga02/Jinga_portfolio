@@ -17,6 +17,9 @@ export const STitleWrapper = styled.div`
     font-size: 5rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
+    background: linear-gradient(to right, #eeeeee, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 `;
 
@@ -33,7 +36,7 @@ export const SSwiperSlide = styled(SwiperSlide)`
   height: 100%;
   padding: 2% 3% 0 3%;
   border-radius:20px;
-  background: linear-gradient(20deg, rgb(20, 20, 20), rgb(80, 80, 80));
+  background: linear-gradient(20deg, rgb(30, 30, 30), rgb(0, 0, 0));
   }
 `;
 

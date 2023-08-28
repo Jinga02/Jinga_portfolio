@@ -17,7 +17,7 @@ function App() {
     <SBodyWrapper>
       <Swiper
         effect={"cube"}
-        grabCursor={true}
+        grabCursor={false}
         pagination={true}
         navigation={true}
         speed={1000}

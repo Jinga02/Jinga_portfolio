@@ -42,7 +42,7 @@ export const STextWrapper = styled.div`
 export const STopWrapper = styled.div`
   position:absolute;
   width:100%;
-  top:3%;
+  // top:0%;
   left:5%;
   transform:rotate(-5deg)};
   #top {
@@ -52,48 +52,19 @@ export const STopWrapper = styled.div`
   }
   #top:nth-child(1) {
     color: transparent;
-    -webkit-text-stroke: 3px #eeeeee;
+    -webkit-text-stroke: 2px #eeeeee;
   }
   #top:nth-child(2) {
     color: #eeeeee;
-    animation: animate 4s ease-in-out infinite;
+    animation: animate 2.5s ease-in-out infinite;
   }
   
-  @keyframes animate {
-    0%,
-    100% {
-      clip-path: polygon(
-        0% 45%,
-        16% 44%,
-        33% 50%,
-        54% 60%,
-        70% 61%,
-        84% 59%,
-        100% 52%,
-        100% 100%,
-        0% 100%
-      );
-    }
-  
-    50% {
-      clip-path: polygon(
-        0% 60%,
-        15% 65%,
-        34% 66%,
-        51% 62%,
-        67% 50%,
-        84% 45%,
-        100% 46%,
-        100% 100%,
-        0% 100%
-      );
-    }
 `;
 
 export const SBottomWrapper = styled.div`
 position:absolute;
 width:100%;
-bottom:40%;
+bottom:38%;
 left:55%;
 transform:rotate(-5deg)};
 #bottom {
@@ -103,65 +74,11 @@ transform:rotate(-5deg)};
 }
 #bottom:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 3px #eeeeee;
+  -webkit-text-stroke: 2px #eeeeee;
 }
 #bottom:nth-child(2) {
   color: #eeeeee;
-  animation: animate 4s ease-in-out infinite;
+  animation: animate 2.5s ease-in-out infinite;
 }
 
-@keyframes animate {
-  0%,
-  100% {
-    clip-path: polygon(
-      0% 45%,
-      16% 44%,
-      33% 50%,
-      54% 60%,
-      70% 61%,
-      84% 59%,
-      100% 52%,
-      100% 100%,
-      0% 100%
-    );
-  }
-
-  50% {
-    clip-path: polygon(
-      0% 60%,
-      15% 65%,
-      34% 66%,
-      51% 62%,
-      67% 50%,
-      84% 45%,
-      100% 46%,
-      100% 100%,
-      0% 100%
-    );
-  }
 `;
-
-// export const STextBanner = styled.div`
-//   font-size: 2rem;
-//   font-weight: 1000;
-//   white-space: nowrap;
-//   // padding: 100px 50px;
-//   text-transform: uppercase;
-//   font-weight: 400;
-//   span {
-//     position: relative;
-//     // top: 30%;
-//     display: inline-block;
-//     clip: rect(0px, 0px, 300px, 0px);
-//     color: #575757;
-//   }
-//   .anim-text {
-//     overflow: hidden;
-//     white-space: nowrap;
-//     // top: 0;
-//     // left: 0;
-//     // position: absolute;
-//     transition: width 1s ease;
-//     clip: rect(0px, 0px, 300px, 0px);
-//   }
-// `;

@@ -16,6 +16,9 @@ export const STitleWrapper = styled.div`
     font-size: 5rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
+    background: linear-gradient(to right, #eeeeee, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 `;
 export const SSkillsWrapper = styled.div`
@@ -23,12 +26,16 @@ export const SSkillsWrapper = styled.div`
   top: 20%;
   width: 50%;
   margin-left: 29%;
+
   #skills {
     margin-left: 9%;
   }
   #skill {
     font-size: 3.5rem;
     font-weight: 700;
+    background: linear-gradient(to right, #eeeeee, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     hr {
       margin: 5px 0 0 0;
       border-radius: 10px;
@@ -57,13 +64,14 @@ export const SSkillsDetailWrapper = styled.div`
   height: 60%;
   margin-left: 33%;
   margin-top: 2%;
+
   h2 {
     padding: 0;
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     padding: 20px 10px;
     line-height: 1.8;
