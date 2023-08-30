@@ -9,7 +9,7 @@ export const SMyProjectsWrapper = styled.div`
 
 export const STitleWrapper = styled.div`
   position: absolute;
-  top: 40%;
+  top: 35%;
   width: 100%;
   height: 50%;
   #myProject {
@@ -30,7 +30,7 @@ export const SSwiper = styled(Swiper)`
   height: 50%;
   margin: 0 0 5% 35%;
 `;
-
+SSwiper.displayName = "SwiperWrapper";
 export const SSwiperSlide = styled(SwiperSlide)`
   width: 100%;
   height: 100%;
@@ -39,7 +39,7 @@ export const SSwiperSlide = styled(SwiperSlide)`
   background: linear-gradient(20deg, rgb(30, 30, 30), rgb(0, 0, 0));
   }
 `;
-
+SSwiperSlide.displayName = "SwiperSlide";
 export const SMovieTitle = styled.div`
   display: flex;
   width: 100%;

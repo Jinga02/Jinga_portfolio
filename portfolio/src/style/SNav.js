@@ -18,14 +18,6 @@ export const SHtwo = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  // #dev:nth-child(1) {
-  //   color: transparent;
-  //   -webkit-text-stroke: 1px gray;
-  // }
-  // #dev:nth-child(2) {
-  //   color: gray;
-  //   animation: animate 4s ease-in-out infinite;
-  // }
 `;
 export const SHone = styled.div`
   #name {
@@ -36,14 +28,6 @@ export const SHone = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  // #name:nth-child(1) {
-  //   color: transparent;
-  //   -webkit-text-stroke: 2px gray;
-  // }
-  // #name:nth-child(2) {
-  //   color: gray;
-  //   animation: animate 4s ease-in-out infinite;
-  // }
 `;
 export const SIconWrapper = styled.div`
   position: absolute;

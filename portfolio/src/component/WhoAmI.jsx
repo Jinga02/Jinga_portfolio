@@ -1,5 +1,4 @@
-import { STitleWrapper } from "../style/SMyProjects";
-import { SWhoAmIWrapper } from "../style/SWhoAmI";
+import { SWhoAmIWrapper, STitleWrapper } from "../style/SWhoAmI";
 
 const WhoAmI = () => (
   <SWhoAmIWrapper>

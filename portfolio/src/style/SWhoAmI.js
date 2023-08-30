@@ -4,18 +4,6 @@ export const SWhoAmIWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   color: #eeeeee;
-
-  #whoAmI {
-    top: 30%;
-    width: 25%;
-    font-size: 5rem;
-    font-weight: 700;
-    margin: 0 0 0 5%;
-    background: linear-gradient(to right, #eeeeee, gray);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   #Introduce {
     position: absolute;
     top: 35%;
@@ -76,4 +64,20 @@ export const SWhoAmIWrapper = styled.div`
     100% {
       transform: translate(1px, 1px) rotate(0deg);
     }
+`;
+
+export const STitleWrapper = styled.div`
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  height: 50%;
+  #whoAmI {
+    width: 25%;
+    font-size: 5rem;
+    font-weight: 1000;
+    margin: 0 0 0 5%;
+    background: linear-gradient(to right, #eeeeee, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 `;

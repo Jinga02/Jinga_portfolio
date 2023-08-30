@@ -10,7 +10,6 @@ export const STitleWrapper = styled.div`
   top: 40%;
   width: 100%;
   height: 50%;
-
   #myContent {
     width: 25%;
     font-size: 5rem;
