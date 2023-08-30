@@ -7,8 +7,6 @@ import {
   SSwiper,
   SSwiperSlide,
 } from "../style/SMyProjects";
-// import MovieVideo from "../asset/movie.mp4";
-// import CritVideo from "../asset/crit.mp4";
 import { EffectCards, Pagination, Navigation } from "swiper/modules";
 
 import "swiper/css/effect-cards";
@@ -49,7 +47,10 @@ const MyProjects = () => {
           </SMovieTitle>
 
           <SProjectVideo autoPlay loop muted type="video/mp4">
-            {/* <source src={MovieVideo} type="video/mp4" /> */}
+            <source
+              src="https://github.com/Jinga02/Jinga_portfolio/assets/110621233/a8de7b9a-2322-46fd-b305-539b63136b5b"
+              type="video/mp4"
+            />
           </SProjectVideo>
         </SSwiperSlide>
         <SSwiperSlide>
@@ -69,7 +70,10 @@ const MyProjects = () => {
             </a>
           </SCritTitle>
           <SProjectVideo autoPlay loop muted type="video/mp4">
-            {/* <source src={CritVideo} type="video/mp4" /> */}
+            <source
+              src="https://github.com/Jinga02/Jinga_portfolio/assets/110621233/309c4ca3-766f-4ed1-a950-4d2779f98605"
+              type="video/mp4"
+            />
           </SProjectVideo>
         </SSwiperSlide>
       </SSwiper>
