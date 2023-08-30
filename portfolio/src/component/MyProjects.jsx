@@ -7,8 +7,8 @@ import {
   SSwiper,
   SSwiperSlide,
 } from "../style/SMyProjects";
-import MovieVideo from "../asset/movie.mp4";
-import CritVideo from "../asset/crit.mp4";
+// import MovieVideo from "../asset/movie.mp4";
+// import CritVideo from "../asset/crit.mp4";
 import { EffectCards, Pagination, Navigation } from "swiper/modules";
 
 import "swiper/css/effect-cards";
@@ -49,7 +49,7 @@ const MyProjects = () => {
           </SMovieTitle>
 
           <SProjectVideo autoPlay loop muted type="video/mp4">
-            <source src={MovieVideo} type="video/mp4" />
+            {/* <source src={MovieVideo} type="video/mp4" /> */}
           </SProjectVideo>
         </SSwiperSlide>
         <SSwiperSlide>
@@ -69,7 +69,7 @@ const MyProjects = () => {
             </a>
           </SCritTitle>
           <SProjectVideo autoPlay loop muted type="video/mp4">
-            <source src={CritVideo} type="video/mp4" />
+            {/* <source src={CritVideo} type="video/mp4" /> */}
           </SProjectVideo>
         </SSwiperSlide>
       </SSwiper>
