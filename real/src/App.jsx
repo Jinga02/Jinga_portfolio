@@ -33,9 +33,11 @@ export default function App() {
           <WhoAmI />
         </SwiperSlide>
         <SwiperSlide className="three">
+          <Nav />
           <MyContents />
         </SwiperSlide>
         <SwiperSlide className="four">
+          <Nav />
           <MyProjects />
         </SwiperSlide>
       </Swiper>

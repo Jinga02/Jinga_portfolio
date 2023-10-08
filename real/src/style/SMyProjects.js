@@ -35,7 +35,6 @@ SSwiper.displayName = "SwiperWrapper";
 export const SSwiperSlide = styled(SwiperSlide)`
   width: 100%;
   height: 100%;
-  
   padding: 2% 3% 0 3%;
   border-radius:20px;
   background: linear-gradient(20deg, rgb(30, 30, 30), rgb(0, 0, 0));
@@ -45,23 +44,28 @@ SSwiperSlide.displayName = "SwiperSlide";
 export const SMovieTitle = styled.div`
   display: flex;
   width: 100%;
-
   h2 {
     font-size: 2rem;
     margin: 1% 2%;
   }
-  img {
-    width: 60px;
-    height: 25px;
-    margin: auto 0.5%;
+  p{
+    border:0.2rem solid white;
+    border-radius:0.5rem;
+    padding:0.3rem;
+    margin-right: 1rem;
   }
   a {
+    color:white;
+    text-decoration:none;
+    border:0.2rem solid none;
+    border-radius:0.5rem;
+    padding:0.3rem;
     margin: auto 0.5%;
-  }
-  #readMore {
-    width: 100px;
-    height: 40px;
-    float: right;
+    background-image: linear-gradient(#000, #000),
+      linear-gradient(to left, #37a9fa, #5951f3);
+    background-clip: content-box, border-box;
+    background-origin: border-box;
+    animation: huerotate 6s infinite linear;
   }
   b {
     color: #0033ff;
@@ -75,18 +79,22 @@ export const SCritTitle = styled.div`
     font-size: 2rem;
     margin: 1% 2%;
   }
-  img {
-    width: 60px;
-    height: 25px;
-    margin: auto 0.5%;
+  p{
+    border:0.2rem solid white;
+    border-radius:0.5rem;
+    padding:0.3rem;
+    margin-right: 1rem;
   }
   a {
-    margin: auto 0.5%;
-  }
-  #readMore {
-    width: 100px;
-    height: 40px;
-    float: right;
+    color:white;
+    text-decoration:none;
+    border:0.2rem solid none;
+    border-radius:0.5rem;
+    padding:0.25rem;
+    margin: auto 1%;
+    background-image: linear-gradient(#000, #000),
+      linear-gradient(to left, #37a9fa, #5951f3);
+    background-clip: content-box, border-box;
   }
   b {
     color: #0033ff;
