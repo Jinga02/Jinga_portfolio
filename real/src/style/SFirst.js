@@ -40,7 +40,7 @@ export const SFirstWrapper = styled.div`
 export const STopWrapper = styled.div`
   position:absolute;
   width:100%;
-  top:-10%;
+  top:-5%;
   transform:rotate(-5deg)};
   #top {
     font-size: 8em;

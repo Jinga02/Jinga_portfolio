@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export const SMyProjectsWrapper = styled.div`
-  // width: 100vw;
+  position: relative;
+  width: 100%;
   height: 100%;
   color: white;
 `;
@@ -34,6 +35,7 @@ SSwiper.displayName = "SwiperWrapper";
 export const SSwiperSlide = styled(SwiperSlide)`
   width: 100%;
   height: 100%;
+  
   padding: 2% 3% 0 3%;
   border-radius:20px;
   background: linear-gradient(20deg, rgb(30, 30, 30), rgb(0, 0, 0));

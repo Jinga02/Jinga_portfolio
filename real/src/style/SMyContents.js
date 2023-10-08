@@ -1,7 +1,8 @@
 import styled, { keyframes } from "styled-components";
 
 export const SMyContentsWrapper = styled.div`
-  // width: 100vw;
+  position: relative;
+  width: 100%;
   height: 100%;
   color: white;
 `;
@@ -23,12 +24,8 @@ export const STitleWrapper = styled.div`
 export const SSkillsWrapper = styled.div`
   position: absolute;
   top: 20%;
+  left: 15%;
   width: 50%;
-  margin-left: 29%;
-
-  #skills {
-    margin-left: 9%;
-  }
   #skill {
     font-size: 3.5rem;
     font-weight: 700;

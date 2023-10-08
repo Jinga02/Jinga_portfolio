@@ -34,7 +34,6 @@ const MyProjects = () => {
             <h2>
               안심 보행 서비스 <b>NUBIO👨‍👩‍👦‍👦</b>
             </h2>
-
             <img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white" />
             <img src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white" />
             <img src="https://img.shields.io/badge/redux-764ABC?style=flat&logo=redux&logoColor=white" />

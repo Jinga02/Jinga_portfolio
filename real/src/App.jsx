@@ -7,6 +7,8 @@ import { Mousewheel, Pagination } from "swiper/modules";
 import First from "./component/First";
 import WhoAmI from "./component/WhoAmI";
 import Nav from "./component/Nav";
+import MyContents from "./component/MyContents";
+import MyProjects from "./component/MyProjects";
 
 export default function App() {
   return (
@@ -30,9 +32,12 @@ export default function App() {
           <Nav />
           <WhoAmI />
         </SwiperSlide>
-        <SwiperSlide className="three">Slide 3</SwiperSlide>
-        <SwiperSlide className="four">Slide 4</SwiperSlide>
-        <SwiperSlide className="five">Slide 5</SwiperSlide>
+        <SwiperSlide className="three">
+          <MyContents />
+        </SwiperSlide>
+        <SwiperSlide className="four">
+          <MyProjects />
+        </SwiperSlide>
       </Swiper>
     </>
   );

@@ -31,10 +31,11 @@ export const SHone = styled.div`
 `;
 export const SIconWrapper = styled.div`
   position: absolute;
+  display: flex;
   top: 0px;
   left: 80%;
   img {
-    width: 10%;
+    width: 40%;
     margin: 1% 5% 0 10%;
   }
 `;

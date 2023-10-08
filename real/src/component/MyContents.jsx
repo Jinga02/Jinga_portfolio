@@ -21,11 +21,8 @@ const MyContents = () => {
     "React",
     "Vue.js",
     "Redux",
-    "Recoil",
     "Html",
     "css",
-    "Python",
-    "Django",
   ];
   return (
     <SMyContentsWrapper>
