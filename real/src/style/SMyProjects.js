@@ -61,7 +61,7 @@ export const SMovieTitle = styled.div`
     border-radius:0.5rem;
     padding:0.3rem;
     margin: auto 0.5%;
-    background-image: linear-gradient(#000, #000),
+    background-image: linear-gradient(#444, #444),
       linear-gradient(to left, #37a9fa, #5951f3);
     background-clip: content-box, border-box;
     background-origin: border-box;
@@ -91,10 +91,11 @@ export const SCritTitle = styled.div`
     border:0.2rem solid none;
     border-radius:0.5rem;
     padding:0.25rem;
-    margin: auto 1%;
+    margin: auto 0.5%;
     background-image: linear-gradient(#000, #000),
       linear-gradient(to left, #37a9fa, #5951f3);
     background-clip: content-box, border-box;
+
   }
   b {
     color: #0033ff;

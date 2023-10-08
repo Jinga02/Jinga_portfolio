@@ -16,7 +16,7 @@ export const STitleWrapper = styled.div`
     font-size: 5rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
-    background: linear-gradient(to right, #eeeeee, gray);
+    background: linear-gradient(to right, #eeeeee, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -81,12 +81,13 @@ export const SJavaScriptWrapper = styled.div`
   width: 46%;
   height: 30%;
    padding:1rem;
-   border:0.2rem solid white;
+   border:0.2rem solid orange;
    border-radius:1rem;
    h2{
     font-size:2.5rem;
     position:absolute;
     top:-10%;
+    color:orange;
     background-color: #141414;
     padding: 0 0.5rem;
 
@@ -119,12 +120,13 @@ export const STypeScriptWrapper = styled.div`
   width: 46%;
   height: 30%;
    padding:1rem;
-   border:0.2rem solid white;
+   border:0.2rem solid orange;
    border-radius:1rem;   
    h2{
     font-size:2.5rem;
     position:absolute;
     top:-10%;
+    color:orange;
     background-color: #141414;
     padding: 0 0.5rem;
 
@@ -157,12 +159,13 @@ export const SReactWrapper = styled.div`
   width: 46%;
   height: 35%;
    padding:1rem;
-   border:0.2rem solid white;
+   border:0.2rem solid orange;
    border-radius:1rem;
    h2{
     font-size:2.5rem;
     position:absolute;
     top:-8%;
+    color:orange;
     background-color: #141414;
     padding: 0 0.5rem;
 
@@ -195,12 +198,13 @@ export const SVueWrapper = styled.div`
   width: 46%;
   height: 35%;
    padding:1rem;
-   border:0.2rem solid white;
+   border:0.2rem solid orange;
    border-radius:1rem;
    h2{
     font-size:2.5rem;
     position:absolute;
     top:-8%;
+    color:orange;
     padding: 0 0.5rem;
     background-color: #141414;
    }

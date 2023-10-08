@@ -25,7 +25,7 @@ export const SWhoAmIWrapper = styled.div`
     margin: 0 auto;
     animation: shake 0.5s infinite;
     font-size: 3.5rem;
-    background: linear-gradient(to right, #eeeeee, gray);
+    background: linear-gradient(to right, #eeeeee, #0066FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -72,12 +72,14 @@ export const STitleWrapper = styled.div`
   left: -5%;
   width: 100%;
   height: 50%;
+  color:#0066FF;
   #whoAmI {
     width: 25%;
     font-size: 5rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
-    background: linear-gradient(to right, #eeeeee, gray);
+    color:#0066FF;
+    background: linear-gradient(to right, #eeeeee, #0066FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
