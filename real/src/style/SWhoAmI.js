@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const SWhoAmIWrapper = styled.div`
   width: 100%;
   height: 100%;
-  color: #eeeeee;
+  color: #eeee;
+  font-family: monospace;
+
   #Introduce {
     position: absolute;
     top: 35%;
@@ -13,6 +15,14 @@ export const SWhoAmIWrapper = styled.div`
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
+    .final{
+      margin:0 0 3rem 0;
+      animation: shake 0.5s infinite;
+      font-size: 3.5rem;
+      background: linear-gradient(to right, #FF4C10, #FF4C29);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
   #frontend {
     font-size: 3rem;
@@ -20,12 +30,13 @@ export const SWhoAmIWrapper = styled.div`
   }
   .container {
     display: flex;
+    justify-content: space-around;
   }
-  .container>span{
-    margin: 0 auto;
+  .container>p{
+    margin: 2rem 1rem 4rem 0;
     animation: shake 0.5s infinite;
     font-size: 3.5rem;
-    background: linear-gradient(to right, #eeeeee, #0066FF);
+    background: linear-gradient(to right, #FF4C10, #FF4C29);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -72,14 +83,14 @@ export const STitleWrapper = styled.div`
   left: -5%;
   width: 100%;
   height: 50%;
-  color:#0066FF;
+  color: #d5cea3;
   #whoAmI {
     width: 25%;
     font-size: 5rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
-    color:#0066FF;
-    background: linear-gradient(to right, #eeeeee, #0066FF);
+    color: #d5cea3;
+    background: linear-gradient(to left, #eeee, #eeee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

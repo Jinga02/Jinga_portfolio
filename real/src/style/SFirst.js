@@ -5,6 +5,8 @@ export const SFirstWrapper = styled.div`
   height: 100%;
   color: white;
   position:relative;
+  font-family: monospace;
+
 
 @keyframes animate {
 	0%,
@@ -38,24 +40,23 @@ export const SFirstWrapper = styled.div`
 `;
 
 export const STopWrapper = styled.div`
-  position:absolute;
-  width:100%;
-  top:-5%;
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  left: 5%;
   transform:rotate(-5deg)};
   #top {
-    font-size: 8em;
-    position:absolute;
+    font-size: 9em;
+    position: absolute;
   }
   #top:nth-child(1) {
     color: transparent;
-    -webkit-text-stroke: 2px #eeeeee;
-    
+    -webkit-text-stroke: 2px #ff4c29;
   }
   #top:nth-child(2) {
-    color: #eeeeee;
+    color: #ff4c29;
     animation: animate 4s ease-in-out infinite;
   }
-  
 `;
 export const SImageWrapper = styled.div`
   width: 100%;
@@ -68,22 +69,43 @@ export const SImageWrapper = styled.div`
   }
 `;
 export const SBottomWrapper = styled.div`
-position:absolute;
-top:70%;
-width:100%;
-transform:rotate(-5deg)};
-#bottom {
-  font-size: 8em;
-  position:absolute;
-  right:3%;
-}
-#bottom:nth-child(1) {
-  color: transparent;
-  -webkit-text-stroke: 2px #eeeeee;
-}
-#bottom:nth-child(2) {
-  color: #eeeeee;
-  animation: animate 2.5s ease-in-out infinite;
-}
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  right: 5%;
+  transform:rotate(-5deg)};
+  #bottom {
+    font-size: 9em;
+    position: absolute;
+    right: 3%;
+  }
+  #bottom:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #ff4c29;
+  }
+  #bottom:nth-child(2) {
+    color: #ff4c29;
+    animation: animate 2.5s ease-in-out infinite;
+  }
+`;
 
+export const TypingWrapper = styled.div`
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  .typing-demo {
+    width: 45ch;
+    animation: typing 2s steps(32);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3.5rem;
+    color: #eeee;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
 `;

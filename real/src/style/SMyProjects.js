@@ -6,6 +6,7 @@ export const SMyProjectsWrapper = styled.div`
   width: 100%;
   height: 100%;
   color: white;
+  font-family: monospace;
 `;
 
 export const STitleWrapper = styled.div`
@@ -18,7 +19,7 @@ export const STitleWrapper = styled.div`
     font-size: 5rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
-    background: linear-gradient(to right, #eeeeee, gray);
+    background: linear-gradient(to right, #eeee, #eeee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -37,7 +38,8 @@ export const SSwiperSlide = styled(SwiperSlide)`
   height: 100%;
   padding: 2% 3% 0 3%;
   border-radius:20px;
-  background: linear-gradient(20deg, rgb(30, 30, 30), rgb(0, 0, 0));
+  background-color:rgb(8, 32, 55);
+  border:0.2rem solid #FF4C29;
   }
 `;
 SSwiperSlide.displayName = "SwiperSlide";
@@ -48,27 +50,25 @@ export const SMovieTitle = styled.div`
     font-size: 2rem;
     margin: 1% 2%;
   }
-  p{
-    border:0.2rem solid white;
-    border-radius:0.5rem;
-    padding:0.3rem;
+  p {
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
     margin-right: 1rem;
   }
   a {
-    color:white;
-    text-decoration:none;
-    border:0.2rem solid none;
-    border-radius:0.5rem;
-    padding:0.3rem;
+    color: white;
+    text-decoration: none;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
     margin: auto 0.5%;
-    background-image: linear-gradient(#444, #444),
-      linear-gradient(to left, #37a9fa, #5951f3);
-    background-clip: content-box, border-box;
-    background-origin: border-box;
-    animation: huerotate 6s infinite linear;
+    // background-image: linear-gradient(#000, #000),
+    //   linear-gradient(to left, #37a9fa, #5951f3);
+    // background-clip: content-box, border-box;
   }
   b {
-    color: #0033ff;
+    color: #ff4c29;
   }
 `;
 
@@ -79,26 +79,25 @@ export const SCritTitle = styled.div`
     font-size: 2rem;
     margin: 1% 2%;
   }
-  p{
-    border:0.2rem solid white;
-    border-radius:0.5rem;
-    padding:0.3rem;
+  p {
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
     margin-right: 1rem;
   }
   a {
-    color:white;
-    text-decoration:none;
-    border:0.2rem solid none;
-    border-radius:0.5rem;
-    padding:0.25rem;
+    color: white;
+    text-decoration: none;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
     margin: auto 0.5%;
-    background-image: linear-gradient(#000, #000),
-      linear-gradient(to left, #37a9fa, #5951f3);
-    background-clip: content-box, border-box;
-
+    // background-image: linear-gradient(#000, #000),
+    //   linear-gradient(to left, #37a9fa, #5951f3);
+    // background-clip: content-box, border-box;
   }
   b {
-    color: #0033ff;
+    color: #ff4c29;
   }
 `;
 

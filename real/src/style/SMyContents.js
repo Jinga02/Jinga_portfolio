@@ -5,6 +5,7 @@ export const SMyContentsWrapper = styled.div`
   width: 100%;
   height: 100%;
   color: white;
+  font-family: monospace;
 `;
 export const STitleWrapper = styled.div`
   position: absolute;
@@ -16,7 +17,7 @@ export const STitleWrapper = styled.div`
     font-size: 5rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
-    background: linear-gradient(to right, #eeeeee, orange);
+    background: linear-gradient(to right, #eeee, #eeee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -24,24 +25,14 @@ export const STitleWrapper = styled.div`
 export const SSkillsWrapper = styled.div`
   position: absolute;
   top: 20%;
-  left: 15%;
+  left: 12%;
   width: 50%;
   #skill {
     font-size: 3.5rem;
     font-weight: 700;
-    background: linear-gradient(to right, #eeeeee, gray);
+    background: linear-gradient(to right, #eeee, #eeee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    hr {
-      // margin: 5px 0 0 0;
-      border-radius: 10px;
-      border-bottom: 5px solid transparent;
-      background-image: linear-gradient(#444, #444),
-        linear-gradient(to left, #37a9fa, #5951f3);
-      background-clip: content-box, border-box;
-      background-origin: border-box;
-      animation: huerotate 6s infinite linear;
-    }
     @keyframes huerotate {
       0% {
         filter: hue-rotate(0deg);
@@ -49,6 +40,15 @@ export const SSkillsWrapper = styled.div`
       100% {
         filter: hue-rotate(360deg);
       }
+    }
+    hr {
+      border-radius: 10px;
+      border-bottom: 5px solid transparent;
+      background-image: linear-gradient(#444, #444),
+        linear-gradient(to left, #37a9fa, #5951f3);
+      background-clip: content-box, border-box;
+      background-origin: border-box;
+      animation: huerotate 6s infinite linear;
     }
   }
 `;
@@ -64,13 +64,13 @@ export const SSkillsDetailWrapper = styled.div`
     padding: 0;
     margin: 0;
     font-size: 2.3rem;
-    }
+  }
   p {
     font-size: 1.5rem;
     font-weight: 700;
     padding: 20px 10px;
     line-height: 1.8;
-    // float:left;
+    color: #eeee;
   }
 `;
 
@@ -80,151 +80,73 @@ export const SJavaScriptWrapper = styled.div`
   left: 0;
   width: 46%;
   height: 30%;
-   padding:1rem;
-   border:0.2rem solid orange;
-   border-radius:1rem;
-   h2{
-    font-size:2.5rem;
-    position:absolute;
-    top:-10%;
-    color:orange;
-    background-color: #141414;
-    padding: 0 0.5rem;
-
-   }
-  hr {
-    width: 30%;
-    border-radius: 10px;
-    border-bottom: 5px solid transparent;
-    background-image: linear-gradient(#444, #444),
-      linear-gradient(to left, #37a9fa, #5951f3);
-    background-clip: content-box, border-box;
-    background-origin: border-box;
-    animation: huerotate 6s infinite linear;
-  }
-
-  @keyframes huerotate {
-    0% {
-      filter: hue-rotate(0deg);
-    }
-    100% {
-      filter: hue-rotate(360deg);
-    }
+  padding: 1rem;
+  border: 0.3rem solid #FF4C29;
+  border-radius: 1rem;
+  h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: -17%;
+    color: #FF4C29;
+    background-color: #082032;
+    // border: 0.2rem solid white;
+    transform:rotate(-10deg)};    
   }
 `;
 
 export const STypeScriptWrapper = styled.div`
   position: relative;
-  top: -34.5%;
+  top: -36%;
   left: 50%;
   width: 46%;
   height: 30%;
-   padding:1rem;
-   border:0.2rem solid orange;
-   border-radius:1rem;   
-   h2{
-    font-size:2.5rem;
-    position:absolute;
-    top:-10%;
-    color:orange;
-    background-color: #141414;
-    padding: 0 0.5rem;
-
-   }
-  hr {
-    width: 27%;
-    border-radius: 10px;
-    border-bottom: 5px solid transparent;
-    background-image: linear-gradient(#444, #444),
-      linear-gradient(to left, #37a9fa, #5951f3);
-    background-clip: content-box, border-box;
-    background-origin: border-box;
-    animation: huerotate 6s infinite linear;
-  }
-
-  @keyframes huerotate {
-    0% {
-      filter: hue-rotate(0deg);
-    }
-    100% {
-      filter: hue-rotate(360deg);
-    }
-  }
+  padding: 1rem;
+  border: 0.3rem solid #FF4C29;
+  border-radius: 1rem;
+  h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: -17%;
+    color: #FF4C29;
+    background-color: #082032;
+    // border: 0.2rem solid white;
+    transform:rotate(-10deg)};  }
 `;
 
 export const SReactWrapper = styled.div`
   position: relative;
-  bottom: 25%;
+  bottom: 22%;
   left: 0;
   width: 46%;
   height: 35%;
-   padding:1rem;
-   border:0.2rem solid orange;
-   border-radius:1rem;
-   h2{
-    font-size:2.5rem;
-    position:absolute;
-    top:-8%;
-    color:orange;
-    background-color: #141414;
-    padding: 0 0.5rem;
-
-   }
-  hr {
-    width: 18%;
-    border-radius: 10px;
-    border-bottom: 5px solid transparent;
-    background-image: linear-gradient(#444, #444),
-      linear-gradient(to left, #37a9fa, #5951f3);
-    background-clip: content-box, border-box;
-    background-origin: border-box;
-    animation: huerotate 6s infinite linear;
-  }
-
-  @keyframes huerotate {
-    0% {
-      filter: hue-rotate(0deg);
-    }
-    100% {
-      filter: hue-rotate(360deg);
-    }
-  }
+  padding: 1rem;
+  border: 0.3rem solid #FF4C29;
+  border-radius: 1rem;
+  h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: -17%;
+    color: #FF4C29;
+    background-color: #082032;
+    // border: 0.2rem solid white;
+    transform:rotate(-10deg)};  }
 `;
 
 export const SVueWrapper = styled.div`
   position: relative;
-  bottom: 64.5%;
+  bottom: 63%;
   left: 50%;
   width: 46%;
   height: 35%;
-   padding:1rem;
-   border:0.2rem solid orange;
-   border-radius:1rem;
-   h2{
-    font-size:2.5rem;
-    position:absolute;
-    top:-8%;
-    color:orange;
-    padding: 0 0.5rem;
-    background-color: #141414;
-   }
-  hr {
-    width: 28%;
-    border-radius: 10px;
-    border-bottom: 5px solid transparent;
-    background-image: linear-gradient(#444, #444),
-      linear-gradient(to left, #37a9fa, #5951f3);
-    background-clip: content-box, border-box;
-    background-origin: border-box;
-    animation: huerotate 6s infinite linear;
-  }
-
-  @keyframes huerotate {
-    0% {
-      filter: hue-rotate(0deg);
-    }
-    100% {
-      filter: hue-rotate(360deg);
-    }
+  padding: 1rem;
+  border: 0.3rem solid #FF4C29;
+  border-radius: 1rem;
+  h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: -17%;
+    color: #FF4C29;    background-color: #082032;
+    // border: 0.2rem solid white;
+    transform:rotate(-10deg)};
   }
 `;

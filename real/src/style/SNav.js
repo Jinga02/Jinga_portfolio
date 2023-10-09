@@ -14,7 +14,7 @@ export const SHtwo = styled.div`
     font-size: 2em;
     position: absolute;
     top: -50%;
-    background: linear-gradient(to right, #eeeeee, gray);
+    background: linear-gradient(to right, #eeee, #334756);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -24,7 +24,7 @@ export const SHone = styled.div`
     font-size: 2em;
     position: absolute;
     top: -10%;
-    background: linear-gradient(to right, #eeeeee, gray);
+    background: linear-gradient(to right, #eeee, #334756);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
