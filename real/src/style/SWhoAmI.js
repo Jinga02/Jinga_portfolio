@@ -35,7 +35,21 @@ export const SContentWrapper = styled.div`
   border-radius: 2rem;
   background-color: rgb(8, 32, 55);
   border: 0.3rem solid #ff4c29;
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
+  .animate__pulse {
+    animation: pulse 2s infinite; /* 무한 반복 애니메이션 */
+  }
   img {
     width: 20%;
     ${"" /* margin-left: 0%; */}

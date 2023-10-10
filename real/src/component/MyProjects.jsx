@@ -115,7 +115,7 @@ const MyProjects = () => {
           <SSwiperSlide>
             <SMovieTitle>
               <h2>
-                영화추천 사이트 <b>BoemNe</b> 🎬
+                영화추천 <b>BoemNe</b> 🎬
               </h2>
               <p>JavaScript</p>
               <p>React</p>

@@ -65,7 +65,7 @@ export const SSkillsDetailWrapper = styled.div`
     font-size: 2.3rem;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     padding: 20px 10px;
     line-height: 1.8;
@@ -95,7 +95,6 @@ export const SJavaScriptWrapper = styled.div`
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 120%;
   }
 `;
 
@@ -121,7 +120,6 @@ export const STypeScriptWrapper = styled.div`
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 120%;
   }
 `;
 
@@ -147,7 +145,6 @@ export const SReactWrapper = styled.div`
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 120%;
   }
 `;
 
@@ -173,6 +170,5 @@ export const SVueWrapper = styled.div`
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 120%;
   }
 `;
