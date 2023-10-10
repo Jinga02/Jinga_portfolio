@@ -22,10 +22,8 @@ body {
 }
 
 .swiper-slide {
-  text-align: center;
   font-size: 18px;
   background: #082032;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
 }

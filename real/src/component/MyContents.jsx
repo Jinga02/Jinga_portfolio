@@ -28,7 +28,8 @@ const MyContents = () => {
   return (
     <SMyContentsWrapper>
       <STitleWrapper>
-        <p id="myContent">새로운 지식을</p>
+        <p id="myContent">새로운 </p>
+        <p id="myContent">지식을 </p>
         <p id="myContent">탐구하는</p>
         <p id="myContent">개발자</p>
       </STitleWrapper>

@@ -4,47 +4,47 @@ export const SFirstWrapper = styled.div`
   width: 100%;
   height: 100%;
   color: white;
-  position:relative;
-  font-family: monospace;
+  position: relative;
+  ${"" /* font-family: monospace; */}
 
+  @keyframes animate {
+    0%,
+    100% {
+      clip-path: polygon(
+        0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+      );
+    }
 
-@keyframes animate {
-	0%,
-	100% {
-		clip-path: polygon(
-			0% 45%,
-			16% 44%,
-			33% 50%,
-			54% 60%,
-			70% 61%,
-			84% 59%,
-			100% 52%,
-			100% 100%,
-			0% 100%
-		);
-	}
-
-	50% {
-		clip-path: polygon(
-			0% 60%,
-			15% 65%,
-			34% 66%,
-			51% 62%,
-			67% 50%,
-			84% 45%,
-			100% 46%,
-			100% 100%,
-			0% 100%
-		);
-	}
+    50% {
+      clip-path: polygon(
+        0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  }
 `;
 
 export const STopWrapper = styled.div`
   position: absolute;
   width: 100%;
-  top: 5%;
+  ${"" /* top: 5%; */}
   left: 5%;
-  transform:rotate(-5deg)};
+  transform: rotate(-5deg);
   #top {
     font-size: 9em;
     position: absolute;
@@ -73,7 +73,7 @@ export const SBottomWrapper = styled.div`
   top: 65%;
   width: 100%;
   right: 5%;
-  transform:rotate(-5deg)};
+  transform: rotate(-5deg);
   #bottom {
     font-size: 9em;
     position: absolute;

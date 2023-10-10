@@ -1,23 +1,25 @@
 import styled, { keyframes } from "styled-components";
 
 export const SMyContentsWrapper = styled.div`
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
   color: white;
-  font-family: monospace;
+  ${"" /* font-family: monospace; */}
 `;
 export const STitleWrapper = styled.div`
   position: absolute;
-  top: 40%;
+  top: 35%;
   width: 100%;
   height: 50%;
+  color: #d5cea3;
   #myContent {
     width: 25%;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
-    background: linear-gradient(to right, #eeee, #eeee);
+    color: #d5cea3;
+    background: linear-gradient(to left, #eeee, #eeee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -25,7 +27,7 @@ export const STitleWrapper = styled.div`
 export const SSkillsWrapper = styled.div`
   position: absolute;
   top: 20%;
-  left: 12%;
+  left: 32%;
   width: 50%;
   #skill {
     font-size: 3.5rem;
@@ -56,6 +58,7 @@ export const SSkillsWrapper = styled.div`
 export const SSkillsDetailWrapper = styled.div`
   position: absolute;
   top: 30%;
+  left: -5%;
   width: 60%;
   height: 60%;
   margin-left: 33%;
@@ -75,78 +78,105 @@ export const SSkillsDetailWrapper = styled.div`
 `;
 
 export const SJavaScriptWrapper = styled.div`
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 46%;
   height: 30%;
-  padding: 1rem;
-  border: 0.3rem solid #FF4C29;
+  padding: 1.5rem;
+  border: 0.3rem solid #ff4c29;
   border-radius: 1rem;
   h2 {
     font-size: 2.5rem;
     position: absolute;
-    top: -17%;
-    color: #FF4C29;
+    top: -20%;
+    color: #ff4c29;
     background-color: #082032;
-    // border: 0.2rem solid white;
-    transform:rotate(-10deg)};    
+    transform: rotate(-5deg);
+  }
+  p {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 120%;
   }
 `;
 
 export const STypeScriptWrapper = styled.div`
-  position: relative;
-  top: -36%;
-  left: 50%;
+  position: absolute;
+  top: 0;
+  left: 55%;
   width: 46%;
   height: 30%;
-  padding: 1rem;
-  border: 0.3rem solid #FF4C29;
+  padding: 1.5rem;
+  border: 0.3rem solid #ff4c29;
   border-radius: 1rem;
   h2 {
     font-size: 2.5rem;
     position: absolute;
-    top: -17%;
-    color: #FF4C29;
+    top: -20%;
+    color: #ff4c29;
     background-color: #082032;
-    // border: 0.2rem solid white;
-    transform:rotate(-10deg)};  }
+    transform: rotate(-5deg);
+  }
+  p {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 120%;
+  }
 `;
 
 export const SReactWrapper = styled.div`
-  position: relative;
-  bottom: 22%;
+  position: absolute;
+  top: 50%;
   left: 0;
   width: 46%;
-  height: 35%;
-  padding: 1rem;
-  border: 0.3rem solid #FF4C29;
+  height: 13rem;
+  padding: 1.5rem;
+  border: 0.3rem solid #ff4c29;
   border-radius: 1rem;
   h2 {
     font-size: 2.5rem;
     position: absolute;
-    top: -17%;
-    color: #FF4C29;
+    top: -15%;
+    color: #ff4c29;
     background-color: #082032;
-    // border: 0.2rem solid white;
-    transform:rotate(-10deg)};  }
+    transform: rotate(-5deg);
+  }
+  p {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 120%;
+  }
 `;
 
 export const SVueWrapper = styled.div`
-  position: relative;
-  bottom: 63%;
-  left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
   width: 46%;
-  height: 35%;
-  padding: 1rem;
-  border: 0.3rem solid #FF4C29;
+  height: 13rem;
+  padding: 1.5rem;
+  border: 0.3rem solid #ff4c29;
   border-radius: 1rem;
   h2 {
     font-size: 2.5rem;
     position: absolute;
-    top: -17%;
-    color: #FF4C29;    background-color: #082032;
-    // border: 0.2rem solid white;
-    transform:rotate(-10deg)};
+    top: -15%;
+    color: #ff4c29;
+    background-color: #082032;
+    transform: rotate(-5deg);
+  }
+  p {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 120%;
   }
 `;

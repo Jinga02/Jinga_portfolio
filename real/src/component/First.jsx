@@ -27,12 +27,12 @@ const First = () => {
         <h1 id="top">FRONT-END DEV</h1>
         <h1 id="top">FRONT-END DEV</h1>
       </STopWrapper>
-      <TypingWrapper className="wrapper">
+      {/* <TypingWrapper className="wrapper">
         <div
           className="typing-demo"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         ></div>
-      </TypingWrapper>
+      </TypingWrapper> */}
       <SBottomWrapper>
         <h1 id="bottom">JIN JAEHWAN</h1>
         <h1 id="bottom">JIN JAEHWAN</h1>

@@ -6,7 +6,6 @@ export const SMyProjectsWrapper = styled.div`
   width: 100%;
   height: 100%;
   color: white;
-  font-family: monospace;
 `;
 
 export const STitleWrapper = styled.div`
@@ -14,12 +13,14 @@ export const STitleWrapper = styled.div`
   top: 35%;
   width: 100%;
   height: 50%;
+  color: #d5cea3;
   #myProject {
     width: 25%;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 1000;
     margin: 0 0 0 5%;
-    background: linear-gradient(to right, #eeee, #eeee);
+    color: #d5cea3;
+    background: linear-gradient(to left, #eeee, #eeee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -27,20 +28,31 @@ export const STitleWrapper = styled.div`
 
 export const SSwiper = styled(Swiper)`
   position: absolute;
-  top: 25%;
+  top: 30%;
   width: 50%;
   height: 50%;
   margin: 0 0 5% 35%;
+
+  .swiper-button-next {
+    background-size: 50% auto;
+    background-position: center;
+  }
+
+  .swiper-button-prev {
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+  }
 `;
 SSwiper.displayName = "SwiperWrapper";
 export const SSwiperSlide = styled(SwiperSlide)`
   width: 100%;
   height: 100%;
-  padding: 2% 3% 0 3%;
-  border-radius:20px;
-  background-color:rgb(8, 32, 55);
-  border:0.2rem solid #FF4C29;
-  }
+  padding: 3%;
+  border-radius: 20px;
+  background-color: rgb(8, 32, 55);
+  border: 0.2rem solid #ff4c29;
 `;
 SSwiperSlide.displayName = "SwiperSlide";
 export const SMovieTitle = styled.div`
