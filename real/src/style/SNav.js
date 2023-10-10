@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SNavWrapper = styled.div`
   width: 80%;
   height: 10%;
-  position: fixed;
+  position: absolute;
   top: 10%;
   left: 10%;
   z-index: 1000;

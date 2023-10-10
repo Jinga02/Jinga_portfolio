@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <>
-      {isNavHidden ? null : <Nav />}
+      {/* {isNavHidden ? null : <Nav />} */}
       <Swiper
         direction={"vertical"}
         slidesPerView={1}
@@ -42,12 +42,15 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className="two">
           <WhoAmI />
+          {/* <Nav /> */}
         </SwiperSlide>
         <SwiperSlide className="three">
           <MyContents />
+          {/* <Nav /> */}
         </SwiperSlide>
         <SwiperSlide className="four">
           <MyProjects />
+          {/* <Nav /> */}
         </SwiperSlide>
       </Swiper>
     </>

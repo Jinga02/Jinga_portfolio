@@ -44,7 +44,7 @@ export const SSkillsWrapper = styled.div`
       }
     }
     p {
-      border: 0.2rem inset white;
+      ${"" /* border: 0.2rem solid white; */}
       border-radius: 1rem;
       padding: 0 0.5rem;
     }
