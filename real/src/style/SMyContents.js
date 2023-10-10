@@ -26,11 +26,11 @@ export const STitleWrapper = styled.div`
 `;
 export const SSkillsWrapper = styled.div`
   position: absolute;
-  top: 20%;
-  left: 32%;
+  top: 15%;
+  left: 30%;
   width: 50%;
   #skill {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(to right, #eeee, #eeee);
     -webkit-background-clip: text;
@@ -43,14 +43,10 @@ export const SSkillsWrapper = styled.div`
         filter: hue-rotate(360deg);
       }
     }
-    hr {
-      border-radius: 10px;
-      border-bottom: 5px solid transparent;
-      background-image: linear-gradient(#444, #444),
-        linear-gradient(to left, #37a9fa, #5951f3);
-      background-clip: content-box, border-box;
-      background-origin: border-box;
-      animation: huerotate 6s infinite linear;
+    p {
+      border: 0.2rem solid white;
+      border-radius: 1rem;
+      padding: 0 0.5rem;
     }
   }
 `;

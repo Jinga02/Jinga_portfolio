@@ -44,7 +44,7 @@ const MyProjects = () => {
           </SCritTitle>
           <SProjectVideo autoPlay loop muted type="video/mp4">
             <source
-              src="https://github.com/Jinga02/Jinga_portfolio/assets/110621233/309c4ca3-766f-4ed1-a950-4d2779f98605"
+              src="https://github.com/Nubi0/Nubio/assets/110621233/f041f031-3842-4637-8a85-c47dffa5c081"
               type="video/mp4"
             />
           </SProjectVideo>

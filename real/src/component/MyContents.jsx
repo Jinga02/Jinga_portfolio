@@ -19,7 +19,7 @@ const MyContents = () => {
     "JavaScript",
     "TypeScript",
     "React",
-    "Vue.js",
+    "Vue",
     "Redux",
     "Html",
     "css",
@@ -43,10 +43,11 @@ const MyContents = () => {
           loop={true}
         >
           {skills.map((skill) => {
+            const skillWidth = `${skill.length * 30}px`;
+
             return (
               <SwiperSlide id="skill">
-                {skill}
-                {/* <hr style={{ width: `${skill.length * 2}rem` }} /> */}
+                <p style={{ width: skillWidth }}>{skill}</p>
               </SwiperSlide>
             );
           })}
