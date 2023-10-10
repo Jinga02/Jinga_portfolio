@@ -16,15 +16,21 @@ const First = () => {
   return (
     <SFirstWrapper>
       <STopWrapper>
-        <h1 id="top">FRONT-END DEV</h1>
-        <h1 id="top">FRONT-END DEV</h1>
+        <h1 id="top" class="animate__animated animate__jackInTheBox">
+          FRONT-END DEV
+        </h1>
+        <h1 id="top" class="animate__animated animate__jackInTheBox">
+          FRONT-END DEV
+        </h1>
       </STopWrapper>
-      <h1 class="animate__animated animate__jackInTheBox">
-        방문해주셔서 감사합니다.
-      </h1>
+
       <SBottomWrapper>
-        <h1 id="bottom">JIN JAEHWAN</h1>
-        <h1 id="bottom">JIN JAEHWAN</h1>
+        <h1 id="bottom" class="animate__animated animate__jackInTheBox">
+          JIN JAEHWAN
+        </h1>
+        <h1 id="bottom" class="animate__animated animate__jackInTheBox">
+          JIN JAEHWAN
+        </h1>
       </SBottomWrapper>
     </SFirstWrapper>
   );

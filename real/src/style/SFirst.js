@@ -5,12 +5,11 @@ export const SFirstWrapper = styled.div`
   height: 100%;
   color: white;
   position: relative;
-  ${"" /* font-family: monospace; */}
   .animate__animated {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    font-size: 3rem;
+    ${"" /* position: absolute; */}
+    ${"" /* top: 50%; */}
+    ${"" /* left: 30%; */}
+    ${"" /* font-size: 3rem; */}
   }
   @keyframes animate {
     0%,
@@ -47,6 +46,7 @@ export const SFirstWrapper = styled.div`
 export const STopWrapper = styled.div`
   position: absolute;
   width: 100%;
+  top: 10%;
   left: 5%;
   transform: rotate(-5deg);
   #top {
@@ -74,7 +74,7 @@ export const SImageWrapper = styled.div`
 `;
 export const SBottomWrapper = styled.div`
   position: absolute;
-  top: 65%;
+  top: 40%;
   width: 100%;
   right: 5%;
   transform: rotate(-5deg);
