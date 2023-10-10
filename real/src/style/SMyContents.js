@@ -44,7 +44,7 @@ export const SSkillsWrapper = styled.div`
       }
     }
     p {
-      border: 0.2rem solid white;
+      border: 0.2rem inset white;
       border-radius: 1rem;
       padding: 0 0.5rem;
     }
@@ -80,7 +80,7 @@ export const SJavaScriptWrapper = styled.div`
   width: 46%;
   height: 30%;
   padding: 1.5rem;
-  border: 0.3rem solid #ff4c29;
+  border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
   h2 {
     font-size: 2.5rem;
@@ -106,7 +106,7 @@ export const STypeScriptWrapper = styled.div`
   width: 46%;
   height: 30%;
   padding: 1.5rem;
-  border: 0.3rem solid #ff4c29;
+  border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
   h2 {
     font-size: 2.5rem;
@@ -132,7 +132,7 @@ export const SReactWrapper = styled.div`
   width: 46%;
   height: 13rem;
   padding: 1.5rem;
-  border: 0.3rem solid #ff4c29;
+  border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
   h2 {
     font-size: 2.5rem;
@@ -158,7 +158,7 @@ export const SVueWrapper = styled.div`
   width: 46%;
   height: 13rem;
   padding: 1.5rem;
-  border: 0.3rem solid #ff4c29;
+  border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
   h2 {
     font-size: 2.5rem;

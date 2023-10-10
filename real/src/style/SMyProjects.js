@@ -52,7 +52,7 @@ export const SSwiperSlide = styled(SwiperSlide)`
   padding: 3%;
   border-radius: 20px;
   background-color: rgb(8, 32, 55);
-  border: 0.2rem solid #ff4c29;
+  border: 0.2rem inset #ff4c29;
 `;
 SSwiperSlide.displayName = "SwiperSlide";
 export const SMovieTitle = styled.div`
@@ -63,7 +63,7 @@ export const SMovieTitle = styled.div`
     margin: 1% 2%;
   }
   p {
-    border: 0.2rem solid white;
+    border: 0.2rem inset white;
     border-radius: 0.5rem;
     padding: 0.3rem;
     margin-right: 1rem;
@@ -71,7 +71,7 @@ export const SMovieTitle = styled.div`
   a {
     color: white;
     text-decoration: none;
-    border: 0.2rem solid white;
+    border: 0.2rem inset white;
     border-radius: 0.5rem;
     padding: 0.3rem;
     margin: auto 0.5%;
@@ -92,7 +92,7 @@ export const SCritTitle = styled.div`
     margin: 1% 2%;
   }
   p {
-    border: 0.2rem solid white;
+    border: 0.2rem inset white;
     border-radius: 0.5rem;
     padding: 0.3rem;
     margin-right: 1rem;
@@ -100,7 +100,7 @@ export const SCritTitle = styled.div`
   a {
     color: white;
     text-decoration: none;
-    border: 0.2rem solid white;
+    border: 0.2rem inset white;
     border-radius: 0.5rem;
     padding: 0.3rem;
     margin: auto 0.5%;
