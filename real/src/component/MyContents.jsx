@@ -52,7 +52,7 @@ const MyContents = () => {
             />
           </a>
           <a
-            href="https://www.notion.so/70eb47d3871a4050bc32d4a4d895a1d1?pvs=4"
+            href="https://dent-edam-42d.notion.site/70eb47d3871a4050bc32d4a4d895a1d1?pvs=4"
             target="_blank"
           >
             <img
