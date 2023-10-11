@@ -71,7 +71,7 @@ export const SMovieTitle = styled.div`
   a {
     color: white;
     text-decoration: none;
-    border: 0.2rem inset white;
+    border: 0.2rem inset #ff4c29;
     border-radius: 0.5rem;
     padding: 0.3rem;
     margin: auto 0.5%;
@@ -100,7 +100,32 @@ export const SCritTitle = styled.div`
   a {
     color: white;
     text-decoration: none;
+    border: 0.2rem inset #ff4c29;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    margin: auto 0.5%;
+  }
+  b {
+    color: #ff4c29;
+  }
+`;
+export const SNubioTitle = styled.div`
+  display: flex;
+  width: 100%;
+  h2 {
+    font-size: 2rem;
+    margin: 1% 2%;
+  }
+  p {
     border: 0.2rem inset white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    margin-right: 1rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    border: 0.2rem inset #ff4c29;
     border-radius: 0.5rem;
     padding: 0.3rem;
     margin: auto 0.5%;

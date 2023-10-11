@@ -6,6 +6,7 @@ import {
   STitleWrapper,
   SSwiper,
   SSwiperSlide,
+  SNubioTitle,
 } from "../style/SMyProjects";
 import { EffectCards, Pagination, Navigation } from "swiper/modules";
 
@@ -75,7 +76,7 @@ const MyProjects = () => {
           modules={[EffectCards, Pagination, Navigation]}
         >
           <SSwiperSlide>
-            <SCritTitle>
+            <SNubioTitle>
               <h2>
                 안심 보행 서비스 <b>NUBIO👨‍👩‍👦‍👦</b>
               </h2>
@@ -85,7 +86,7 @@ const MyProjects = () => {
               <a href="https://github.com/Nubi0/Nubio" target="_blank">
                 Read More
               </a>
-            </SCritTitle>
+            </SNubioTitle>
             <SProjectVideo autoPlay loop muted type="video/mp4">
               <source
                 src="https://github.com/Nubi0/Nubio/assets/110621233/f041f031-3842-4637-8a85-c47dffa5c081"
