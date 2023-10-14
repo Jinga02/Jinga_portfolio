@@ -105,8 +105,8 @@ const MyContents = () => {
             <p>
               ES6+ 문법, 데이터 타입, 변수 스코프, 클로저, 비동기 프로그래밍
               패턴 등의 개념을 숙지하고 있습니다. <br />
-              RESTful API에 대한 이해와 경험이 있습니다. 코드의 효율성과
-              가독성을 높이는 데 집중하고 있습니다. <br />
+              REST API에 대한 이해와 경험이 있습니다. 코드의 효율성과 가독성을
+              높이는 데 집중하고 있습니다. <br />
               {/* 비동기 프로그래밍을 통해 외부 API와의 효율적인 데이터 통신을
             수행하고, 코드 최적화와 디버깅을 통해 애플리케이션의 성능과 신뢰성을
             높이는데 중점을 두고 있습니다. */}
@@ -124,7 +124,7 @@ const MyContents = () => {
           <SReactWrapper>
             <h2>React</h2>
             <p>
-              Redux, Redux Toolkit등의 상태관리 라이브러리를 사용한 경험이
+              Redux, Redux Toolkit등의 상태관리 라이브러리를 사용한 개발 경험이
               있습니다.
               <br />
               React의 컴포넌트 기반 아키텍처와 가상 DOM을 이해하며, 재사용
@@ -134,8 +134,8 @@ const MyContents = () => {
           <SVueWrapper>
             <h2>Python, Vue</h2>
             <p>
-              Python 및 Django를 사용하여 CRUD 기능을 갖춘 서비스를 구현 한
-              경험이 있습니다.
+              Python, Django를 사용하여 CRUD 기능을 갖춘 서비스를 구현 한 경험이
+              있습니다.
               <br />
               Vue Router와 Vuex를 활용하여 라우팅 및 상태 관리를 다룬 경험이
               있습니다. <br />
