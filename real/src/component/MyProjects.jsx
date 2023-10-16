@@ -102,7 +102,7 @@ const MyProjects = () => {
               <p>JavaScript</p>
               <p>React</p>
               <p>Redux</p>
-              <a href="https://github.com/Nubi0/Nubio" target="_blank">
+              <a href="https://github.com/Jinga02/ChallengePJT" target="_blank">
                 Read More
               </a>
             </SCritTitle>
@@ -122,7 +122,7 @@ const MyProjects = () => {
               <p>React</p>
               <p>Python</p>
               <p>Django</p>
-              <a href="https://github.com/Nubi0/Nubio" target="_blank">
+              <a href="https://github.com/Jinga02/MoviePjt" target="_blank">
                 Read More
               </a>
             </SMovieTitle>
