@@ -5,7 +5,7 @@ import {
   SJavaScriptWrapper,
   SReactWrapper,
   SVueWrapper,
-  STypeScriptWrapper,
+  SHtmlScriptWrapper,
   STitleWrapper,
 } from "../style/SMyContents";
 
@@ -103,39 +103,40 @@ const MyContents = () => {
           <SJavaScriptWrapper>
             <h2>JavaScript</h2>
             <p>
-              ES6+ 문법, 데이터 타입, 변수 스코프, 클로저, 비동기 프로그래밍
-              패턴 등 JavsScript의 기본개념과 원리를 이해하며 개발하고 있습니다.{" "}
-              <br />
-              REST API에 대한 이해와 경험이 있으며, RESTful을 지향하고 있습니다.{" "}
-              <br />
-              코드의 효율성과 가독성을 높이는 데 집중하고 있습니다. <br />
-              {/* 비동기 프로그래밍을 통해 외부 API와의 효율적인 데이터 통신을
-            수행하고, 코드 최적화와 디버깅을 통해 애플리케이션의 성능과 신뢰성을
-            높이는데 중점을 두고 있습니다. */}
+              ES6+ 문법에 익숙합니다. <br />
+              TypeScript를 사용할 수 있습니다. <br />
+              Jest를 활용한 테스트코드 작성 경험이 있습니다. <br />
+              {/* JavsScript의 기본개념과 원리를 이해하고 있습니다. <br /> */}
+              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
+              {/* REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
+              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
+              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
+              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
+              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br /> */}
             </p>
           </SJavaScriptWrapper>
-          <STypeScriptWrapper>
-            <h2>TypeScript</h2>
-            <p>
-              TypeScript를 사용해 프로젝트를 진행 한 경험이 있습니다.
-              <br />
-              TypeScript의 정적 타입 시스템과 JavaScript로부터 확장된 기능을
-              이해하고 있습니다. <br />
-              효율적인 개발을 위해, 코드의 의도를 명확히 하기 위해 명확한 변수
-              및 함수 이름과 타입 주석을 사용하며, 동시에 제네릭 타입을 활용하여
-              코드를 재사용하기 위한 타입 선언을 구축합니다.
-            </p>
-          </STypeScriptWrapper>
           <SReactWrapper>
             <h2>React</h2>
             <p>
-              Redux, Redux Toolkit등의 상태관리 라이브러리를 사용한 개발 경험이
-              있습니다.
+              Hook를 이해하며 활용하고 있습니다.
               <br />
-              React의 컴포넌트 기반 아키텍처와 가상 DOM을 이해하며, 재사용
-              가능한 UI를 구현하고 상태 관리에 중점을 두고 있습니다. <br />
+              Redux, Redux Toolkit 상태관리 라이브러리를 사용 경험이 있습니다.{" "}
+              <br />
+              React의 컴포넌트 기반 아키텍처와 가상 DOM을 이해하고 있습니다.{" "}
+              <br />
+              <br />
             </p>
           </SReactWrapper>
+          <SHtmlScriptWrapper>
+            <h2>HTML/CSS</h2>
+            <p>
+              크로스 브라우징에 대응할 수 있습니다. <br />
+              styled-component 활용할 수 있습니다. <br />
+              SCSS 문법을 이해하고 사용하고 있습니다.
+              <br />
+              웹표준을 이해하고 있으며, 지키기 위해 노력합니다. <br />
+            </p>
+          </SHtmlScriptWrapper>
           <SVueWrapper>
             <h2>Python, Vue</h2>
             <p>

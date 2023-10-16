@@ -5,7 +5,6 @@ export const SMyContentsWrapper = styled.div`
   width: 100%;
   height: 100%;
   color: white;
-  ${"" /* font-family: monospace; */}
 `;
 export const STitleWrapper = styled.div`
   position: absolute;
@@ -67,43 +66,38 @@ export const SSkillsDetailWrapper = styled.div`
   p {
     font-size: 1.2rem;
     font-weight: 700;
-    padding: 20px 10px;
-    line-height: 1.8;
+    line-height: 1.6;
     color: #eeee;
+    margin: 0;
   }
 `;
 
 export const SJavaScriptWrapper = styled.div`
   position: absolute;
-  top: 0;
+  top: 45%;
   left: 0;
   width: 46%;
-  height: 30%;
+  height: 13rem;
   padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
+
   h2 {
     font-size: 2.5rem;
     position: absolute;
-    top: -20%;
+    top: -15%;
     color: #ff4c29;
     background-color: #082032;
     transform: rotate(-5deg);
-  }
-  p {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
   }
 `;
 
-export const STypeScriptWrapper = styled.div`
+export const SHtmlScriptWrapper = styled.div`
   position: absolute;
   top: 0;
-  left: 55%;
+  left: 0;
   width: 46%;
-  height: 30%;
+  height: 8rem;
   padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
@@ -114,43 +108,12 @@ export const STypeScriptWrapper = styled.div`
     color: #ff4c29;
     background-color: #082032;
     transform: rotate(-5deg);
-  }
-  p {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
   }
 `;
 
 export const SReactWrapper = styled.div`
   position: absolute;
-  top: 50%;
-  left: 0;
-  width: 46%;
-  height: 13rem;
-  padding: 1.5rem;
-  border: 0.3rem inset #ff4c29;
-  border-radius: 1rem;
-  h2 {
-    font-size: 2.5rem;
-    position: absolute;
-    top: -15%;
-    color: #ff4c29;
-    background-color: #082032;
-    transform: rotate(-5deg);
-  }
-  p {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-`;
-
-export const SVueWrapper = styled.div`
-  position: absolute;
-  top: 50%;
+  top: 45%;
   left: 55%;
   width: 46%;
   height: 13rem;
@@ -165,10 +128,23 @@ export const SVueWrapper = styled.div`
     background-color: #082032;
     transform: rotate(-5deg);
   }
-  p {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+`;
+
+export const SVueWrapper = styled.div`
+  position: absolute;
+  top: 0;
+  left: 55%;
+  width: 46%;
+  height: 8rem;
+  padding: 1.5rem;
+  border: 0.3rem inset #ff4c29;
+  border-radius: 1rem;
+  h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: -20%;
+    color: #ff4c29;
+    background-color: #082032;
+    transform: rotate(-5deg);
   }
 `;

@@ -39,12 +39,10 @@ export const SFirstWrapper = styled.div`
 
 export const STopWrapper = styled.div`
   position: absolute;
+  left: 10%;
   width: 100%;
-  top: 35%;
-  left: 5%;
-  // transform: rotate(-5deg);
   #top {
-    font-size: 8em;
+    font-size: 8rem;
     position: absolute;
   }
   #top:nth-child(1) {
@@ -53,7 +51,7 @@ export const STopWrapper = styled.div`
   }
   #top:nth-child(2) {
     color: #ff4c29;
-    animation: animate 2.5s ease-in-out infinite;
+    animation: animate 2s ease-in-out infinite;
   }
 `;
 export const SImageWrapper = styled.div`
@@ -68,11 +66,11 @@ export const SImageWrapper = styled.div`
 `;
 export const SMidWrapper = styled.div`
   position: absolute;
-  // top: -5%;
-  left: 10%;
   width: 100%;
+  top: 30%;
+  left: 5%;
   #mid {
-    font-size: 8em;
+    font-size: 8rem;
     position: absolute;
   }
   #mid:nth-child(1) {
@@ -81,7 +79,7 @@ export const SMidWrapper = styled.div`
   }
   #mid:nth-child(2) {
     color: #ff4c29;
-    animation: animate 2s ease-in-out infinite;
+    animation: animate 2.5s ease-in-out infinite;
   }
 `;
 export const SBottomWrapper = styled.div`
@@ -89,10 +87,9 @@ export const SBottomWrapper = styled.div`
   top: 55%;
   width: 100%;
   right: 5%;
-  // transform: rotate(-5deg);
 
   #bottom {
-    font-size: 8em;
+    font-size: 8rem;
     position: absolute;
     right: 3%;
   }

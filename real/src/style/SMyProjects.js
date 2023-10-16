@@ -6,6 +6,22 @@ export const SMyProjectsWrapper = styled.div`
   width: 100%;
   height: 100%;
   color: white;
+  img {
+    width: 3rem;
+    position: relative;
+    right: 1.2rem;
+    top: -3%;
+    transform: rotate(-10deg);
+    animation: motion 0.4s linear 0s infinite alternate;
+  }
+  @keyframes motion {
+    0% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 10px;
+    }
+  }
 `;
 
 export const STitleWrapper = styled.div`
@@ -75,9 +91,6 @@ export const SMovieTitle = styled.div`
     border-radius: 0.5rem;
     padding: 0.3rem;
     margin: auto 0.5%;
-    // background-image: linear-gradient(#000, #000),
-    //   linear-gradient(to left, #37a9fa, #5951f3);
-    // background-clip: content-box, border-box;
   }
   b {
     color: #ff4c29;
@@ -130,6 +143,7 @@ export const SNubioTitle = styled.div`
     padding: 0.3rem;
     margin: auto 0.5%;
   }
+
   b {
     color: #ff4c29;
   }

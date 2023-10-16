@@ -62,16 +62,14 @@ const MyProjects = () => {
       </SNavWrapper>
       <SMyProjectsWrapper>
         <STitleWrapper>
-          <p id="myProject">새로운</p>
           <p id="myProject">도전을</p>
-          <p id="myProject">두려워하지 않는</p>
+          <p id="myProject">두려워</p>
+          <p id="myProject">하지 않는</p>
           <p id="myProject">개발자</p>
         </STitleWrapper>
         <SSwiper
           effect={"cards"}
           grabCursor={true}
-          // pagination={true}
-          // navigation={true}
           speed={500}
           modules={[EffectCards, Pagination, Navigation]}
         >
@@ -86,6 +84,10 @@ const MyProjects = () => {
               <a href="https://github.com/Nubi0/Nubio" target="_blank">
                 Read More
               </a>
+              <img
+                src="https://github.com/Jinga02/Jinga_portfolio/assets/110621233/4b6e63bc-b7ac-47ce-91ae-74aad42242f8"
+                alt="마우스"
+              />
             </SNubioTitle>
             <SProjectVideo autoPlay loop muted type="video/mp4">
               <source
@@ -105,6 +107,10 @@ const MyProjects = () => {
               <a href="https://github.com/Jinga02/ChallengePJT" target="_blank">
                 Read More
               </a>
+              <img
+                src="https://github.com/Jinga02/Jinga_portfolio/assets/110621233/4b6e63bc-b7ac-47ce-91ae-74aad42242f8"
+                alt="마우스"
+              />
             </SCritTitle>
             <SProjectVideo autoPlay loop muted type="video/mp4">
               <source
@@ -125,6 +131,10 @@ const MyProjects = () => {
               <a href="https://github.com/Jinga02/MoviePjt" target="_blank">
                 Read More
               </a>
+              <img
+                src="https://github.com/Jinga02/Jinga_portfolio/assets/110621233/4b6e63bc-b7ac-47ce-91ae-74aad42242f8"
+                alt="마우스"
+              />
             </SMovieTitle>
 
             <SProjectVideo autoPlay loop muted type="video/mp4">

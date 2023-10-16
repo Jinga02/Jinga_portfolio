@@ -4,7 +4,6 @@ export const SWhoAmIWrapper = styled.div`
   width: 100%;
   height: 100%;
   color: #eeee;
-  ${"" /* font-family: monospace; */}
 `;
 
 export const STitleWrapper = styled.div`
@@ -50,21 +49,29 @@ export const SContentWrapper = styled.div`
   .animate__pulse {
     animation: pulse 2s infinite; /* 무한 반복 애니메이션 */
   }
-  img {
+  #textOne {
+    display: flex;
+    height: 70%;
+    
+  }
+  #icon {
     width: 20%;
-    ${"" /* margin-left: 0%; */}
-    background: #ff4c29;
-    border-radius: 40%;
+    img {
+      width: 100%;
+      height: 70%;
+      background: #ff4c29;
+      border-radius: 40%;
+    }
   }
   #myInfo {
-    position: absolute;
-    ${"" /* width: 60%; */}
+    width: 70%;
+    // position: absolute;
     padding: 1%;
-    top: 3%;
-    left: 25%;
-    font-size: 100%;
+    // top: 3%;
+    // left: 25%;
+    margin-left: 2rem;
+    font-size: 1.2rem;
     font-weight: 1000;
-
     #simple,
     #deep {
       color: #ff4c29;
@@ -72,11 +79,11 @@ export const SContentWrapper = styled.div`
       font-weight: 1000;
     }
   }
-  #text {
+  #textTwo {
     position: absolute;
     width: 80%;
     left: 18%;
-    bottom: 10%;
+    bottom:3%;
     #content {
       font-size: 180%;
       font-weight: 1000;
@@ -103,7 +110,6 @@ export const SContentWrapper = styled.div`
       white-space: nowrap;
       margin: 0;
       color: transparent;
-      ${"" /* transform: rotate(-3deg); */}
     }
 
     #contentTwo::before {
@@ -128,39 +134,13 @@ export const SContentWrapper = styled.div`
         width: 0%;
       }
     }
-    #textOne {
+
+    #textBottom {
+      
       font-size: 150%;
       font-weight: 1000;
-      margin: 0;
     }
-    #textTwo {
-      font-size: 150%;
-      font-weight: 1000;
-      margin: 0;
-    }
-    #emphasis {
-      display: flex;
-      justify-content: space-between;
-      font-size: 200%;
-      font-weight: 1000;
-      animation: shake 0.8s infinite;
-      background: linear-gradient(to right, #ff4c10, #ff4c29);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      p {
-        margin: 1% 0;
-      }
-    }
-    #emphasisTwo {
-      font-size: 200%;
-      font-weight: 1000;
-      animation: shake 0.8s infinite;
-      background: linear-gradient(to right, #ff4c10, #ff4c29);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin: 1% 0;
-    }
-  }
+
   .typing-demo {
     margin: 2% 0;
     width: 40ch;
@@ -175,47 +155,6 @@ export const SContentWrapper = styled.div`
   @keyframes typing {
     from {
       width: 0;
-    }
-  }
-
-  @keyframes blink {
-    to {
-      visibility: hidden;
-    }
-  }
-  @keyframes shake {
-    0% {
-      transform: translate(1px, -2px) rotate(0deg);
-    }
-    10% {
-      transform: translate(0px, 2px) rotate(0deg);
-    }
-    20% {
-      transform: translate(1px, 2px) rotate(0deg);
-    }
-    30% {
-      transform: translate(3px, 2px) rotate(0deg);
-    }
-    40% {
-      transform: translate(1px, 0px) rotate(1deg);
-    }
-    50% {
-      transform: translate(0px, -2px) rotate(0deg);
-    }
-    60% {
-      transform: translate(-3px, 1px) rotate(0deg);
-    }
-    70% {
-      transform: translate(3px, 1px) rotate(0deg);
-    }
-    80% {
-      transform: translate(0px, 0px) rotate(1deg);
-    }
-    90% {
-      transform: translate(-3px, 0px) rotate(1deg);
-    }
-    100% {
-      transform: translate(1px, 1px) rotate(0deg);
     }
   }
 `;
