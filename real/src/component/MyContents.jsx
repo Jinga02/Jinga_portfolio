@@ -120,7 +120,7 @@ const MyContents = () => {
             <p>
               Hook를 이해하며 활용하고 있습니다.
               <br />
-              Redux, Redux Toolkit 상태관리 라이브러리를 사용 경험이 있습니다.{" "}
+              Redux, Redux Toolkit 상태관리 라이브러리를 사용할 수 있습니다.
               <br />
               React의 컴포넌트 기반 아키텍처와 가상 DOM을 이해하고 있습니다.{" "}
               <br />

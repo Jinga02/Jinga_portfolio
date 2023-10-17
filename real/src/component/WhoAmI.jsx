@@ -61,11 +61,17 @@ const WhoAmI = () => {
             <div id="myInfo">
               <p>안녕하세요. 주니어 개발자 진재환입니다.</p>
               <p>
+                <span id="deep" class="animate__animated animate__pulse">
+                  "기초가 튼튼하면 길이 열린다."
+                </span>
+                라는 말을 항상 마음에 새기고 있습니다.
+              </p>
+              <p>
                 다양하고 넓은 기술도 중요하지만,{" "}
                 <span id="deep" class="animate__animated animate__pulse">
                   깊이있는 프론트엔드 개발자
                 </span>
-                가 되려고 노력합니다.
+                가 되기 위해 노력하고 있습니다.
               </p>
               <p>
                 <span id="simple" class="animate__animated animate__pulse">
@@ -74,8 +80,8 @@ const WhoAmI = () => {
                 라는 철학을 고수합니다.
               </p>
               <p>
-                UI/UX, 코드, 디자인 모두 간단하면서 효과적이며 편리한 것이 가장
-                중요하다고 생각합니다.
+                UI/UX, 코드, 디자인 모두 간단하면서 효과적인게 가장 중요하다고
+                생각합니다.
               </p>
               <p>
                 개발 외에도 등산과 캠핑, 운동, 뮤지컬 등 다양한 취미를 즐기며
