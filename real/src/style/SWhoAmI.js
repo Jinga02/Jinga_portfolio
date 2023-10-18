@@ -45,7 +45,6 @@ export const SContentWrapper = styled.div`
       transform: scale(1);
     }
   }
-
   .animate__pulse {
     animation: pulse 2s infinite; /* 무한 반복 애니메이션 */
   }
@@ -65,30 +64,28 @@ export const SContentWrapper = styled.div`
   }
   #myInfo {
     width: 70%;
-    // position: absolute;
+    height:70%;
     padding: 1%;
-    // top: 3%;
-    // left: 25%;
     margin-left: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 1000;
     #simple,
     #deep {
       color: #ff4c29;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: 1000;
     }
   }
   #textTwo {
     position: absolute;
     width: 80%;
+    height:20%;
     left: 18%;
     bottom:3%;
     #content {
-      font-size: 180%;
+      font-size: 1.5rem;
       font-weight: 1000;
       white-space: nowrap;
-      ${"" /* transform: rotate(3deg); */}
       margin: 0;
       color: transparent;
     }
@@ -105,8 +102,7 @@ export const SContentWrapper = styled.div`
       animation: typing 5s steps(31) infinite;
     }
     #contentTwo {
-      font-size: 180%;
-      font-weight: 1000;
+      font-size: 1.5rem;      font-weight: 1000;
       white-space: nowrap;
       margin: 0;
       color: transparent;
@@ -136,8 +132,7 @@ export const SContentWrapper = styled.div`
     }
 
     #textBottom {
-      
-      font-size: 150%;
+      font-size: 1.5rem;
       font-weight: 1000;
     }
 

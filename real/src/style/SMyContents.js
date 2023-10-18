@@ -64,7 +64,7 @@ export const SSkillsDetailWrapper = styled.div`
     font-size: 2.3rem;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 1.6;
     color: #eeee;
