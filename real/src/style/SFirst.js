@@ -4,7 +4,7 @@ export const SFirstWrapper = styled.div`
   width: 100%;
   height: 100%;
   position: relative;
-
+  padding: 2% 0 0 0;
   @keyframes animate {
     0%,
     100% {

@@ -77,7 +77,7 @@ export const SJavaScriptWrapper = styled.div`
   top: 45%;
   left: 0;
   width: 46%;
-  height: 13rem;
+  min-height: 9rem;
   padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
@@ -97,7 +97,7 @@ export const SHtmlScriptWrapper = styled.div`
   top: 0;
   left: 0;
   width: 46%;
-  height: 8rem;
+  min-height: 9rem;
   padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
@@ -116,7 +116,7 @@ export const SReactWrapper = styled.div`
   top: 45%;
   left: 55%;
   width: 46%;
-  height: 13rem;
+  min-height: 9rem;
   padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
@@ -135,7 +135,7 @@ export const SVueWrapper = styled.div`
   top: 0;
   left: 55%;
   width: 46%;
-  height: 8rem;
+  min-height: 9rem;
   padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
