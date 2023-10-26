@@ -81,9 +81,9 @@ export const SContentWrapper = styled.div`
     width: 80%;
     height:20%;
     left: 18%;
-    bottom:3%;
+    bottom:10%;
     #content {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: 1000;
       white-space: nowrap;
       margin: 0;
@@ -102,7 +102,7 @@ export const SContentWrapper = styled.div`
       animation: typing 5s steps(31) infinite;
     }
     #contentTwo {
-      font-size: 1.5rem;      font-weight: 1000;
+      font-size: 2rem;      font-weight: 1000;
       white-space: nowrap;
       margin: 0;
       color: transparent;
@@ -132,7 +132,7 @@ export const SContentWrapper = styled.div`
     }
 
     #textBottom {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: 1000;
     }
 
