@@ -58,8 +58,9 @@ export const SContentWrapper = styled.div`
     img {
       width: 100%;
       height: 70%;
-      background: #ff4c29;
-      border-radius: 40%;
+      // background: #ff4c29;
+      background:white;
+      border-radius: 45%;
     }
   }
   #myInfo {

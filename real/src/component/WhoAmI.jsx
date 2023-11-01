@@ -8,6 +8,7 @@ const WhoAmI = () => {
   const ContentTwo = `
   새로운것에 대한 호기심과 도전의식
 `;
+  const profileImg = process.env.PUBLIC_URL + "/assets/profile.png";
   return (
     <>
       <SNavWrapper>
@@ -56,7 +57,7 @@ const WhoAmI = () => {
         <SContentWrapper>
           <div id="textOne">
             <div id="icon">
-              <img src="https://github.com/Nubi0/Nubio/assets/110621233/8e4f2a0c-cbdf-4a84-a890-80a93eb60594" />
+              <img src="https://github.com/Nubi0/Nubio/assets/110621233/aefaca6a-97b3-4e21-a33e-73bb4a4ba542" />
             </div>
             <div id="myInfo">
               <p>안녕하세요. 주니어 개발자 진재환입니다.</p>
