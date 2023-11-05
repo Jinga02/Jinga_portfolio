@@ -1,5 +1,4 @@
 // App.js
-
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -25,34 +24,28 @@ export default function App() {
   };
 
   return (
-    <>
-      {/* {isNavHidden ? null : <Nav />} */}
-      <Swiper
-        direction={"vertical"}
-        slidesPerView={1}
-        spaceBetween={30}
-        speed={1200}
-        mousewheel={true}
-        modules={[Mousewheel]}
-        className="mySwiper"
-        onSlideChange={(swiper) => handleSlideChange(swiper)}
-      >
-        <SwiperSlide className="one">
-          <First />
-        </SwiperSlide>
-        <SwiperSlide className="two">
-          <WhoAmI />
-          {/* <Nav /> */}
-        </SwiperSlide>
-        <SwiperSlide className="three">
-          <MyContents />
-          {/* <Nav /> */}
-        </SwiperSlide>
-        <SwiperSlide className="four">
-          <MyProjects />
-          {/* <Nav /> */}
-        </SwiperSlide>
-      </Swiper>
-    </>
+    <Swiper
+      direction={"vertical"}
+      slidesPerView={1}
+      spaceBetween={30}
+      speed={1200}
+      mousewheel={true}
+      modules={[Mousewheel]}
+      className="mySwiper"
+      onSlideChange={(swiper) => handleSlideChange(swiper)}
+    >
+      <SwiperSlide className="one">
+        <First />
+      </SwiperSlide>
+      <SwiperSlide className="two">
+        <WhoAmI />
+      </SwiperSlide>
+      <SwiperSlide className="three">
+        <MyContents />
+      </SwiperSlide>
+      <SwiperSlide className="four">
+        <MyProjects />
+      </SwiperSlide>
+    </Swiper>
   );
 }

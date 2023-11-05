@@ -103,45 +103,41 @@ const MyContents = () => {
           <SJavaScriptWrapper>
             <h2>JavaScript</h2>
             <p>
-              ES6+ 문법에 익숙합니다. <br />
-              TypeScript를 사용할 수 있습니다. <br />
-              Jest를 활용한 테스트코드 작성 경험이 있습니다. <br />
+              - ES6+ 문법에 익숙합니다. <br />
+              - TypeScript를 사용할 수 있습니다. <br />
+              - Jest를 활용한 테스트코드 작성 경험이 있습니다. <br />
               {/* JavsScript의 기본개념과 원리를 이해하고 있습니다. <br /> */}
-              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
-              {/* REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
-              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
-              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
-              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
-              REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br /> */}
+              - REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다.{" "}
+              <br />
             </p>
           </SJavaScriptWrapper>
           <SReactWrapper>
             <h2>React</h2>
             <p>
-              Hook를 이해하며 활용하고 있습니다.
+              - 컴포넌트 기반 아키텍처를 이해하고, React Hooks를 활용할 수
+              있습니다.
               <br />
-              Redux, Redux Toolkit 상태관리 라이브러리를 사용할 수 있습니다.
-              <br />
-              React의 컴포넌트 기반 아키텍처와 가상 DOM을 이해하고 있습니다.
+              - Redux, Redux Toolkit 상태관리 라이브러리를 사용할 수 있습니다.
+              <br />- styled-component 이해하고 사용하고 있습니다.
             </p>
           </SReactWrapper>
           <SHtmlScriptWrapper>
             <h2>HTML/CSS</h2>
             <p>
-              크로스 브라우징에 대응할 수 있습니다. <br />
-              styled-component 활용할 수 있습니다. <br />
-              SCSS 문법을 이해하고 사용하고 있습니다.
+              - 웹 페이지의 작동 구조와 DOM을 이해하고 있습니다.
               <br />
-              웹표준을 이해하고 있으며, 지키기 위해 노력합니다. <br />
+              - 웹표준을 이해하고 있으며, 지키기 위해 노력합니다. <br />- 사용자
+              중심의 디자인 원칙을 준수하고, 브랜드 메시지와 사용자 경험을
+              강화하기 위한 시각적 요소를 지속적으로 개선합니다.
             </p>
           </SHtmlScriptWrapper>
           <SVueWrapper>
             <h2>Python, Vue</h2>
             <p>
-              Python, Django를 사용하여 CRUD 기능을 갖춘 서비스를 구현 한 경험이
-              있습니다.
+              - Python, Django를 사용하여 CRUD 기능을 갖춘 서비스를 구현 한
+              경험이 있습니다.
               <br />
-              Vue Router와 Vuex를 활용하여 라우팅 및 상태 관리를 다룬 경험이
+              - Vue Router와 Vuex를 활용하여 라우팅 및 상태 관리를 다룬 경험이
               있습니다. <br />
             </p>
           </SVueWrapper>

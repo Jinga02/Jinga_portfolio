@@ -55,7 +55,7 @@ export const SSkillsDetailWrapper = styled.div`
   top: 30%;
   left: -5%;
   width: 60%;
-  height: 60%;
+  height: 65%;
   margin-left: 33%;
   margin-top: 2%;
   h2 {
@@ -74,8 +74,9 @@ export const SSkillsDetailWrapper = styled.div`
 
 export const SJavaScriptWrapper = styled.div`
   position: absolute;
-  top: 45%;
+  top: 0;
   left: 0;
+
   width: 46%;
   min-height: 9rem;
   padding: 1.5rem;
@@ -94,7 +95,7 @@ export const SJavaScriptWrapper = styled.div`
 
 export const SHtmlScriptWrapper = styled.div`
   position: absolute;
-  top: 0;
+  top: 45%;
   left: 0;
   width: 46%;
   min-height: 9rem;
@@ -113,8 +114,9 @@ export const SHtmlScriptWrapper = styled.div`
 
 export const SReactWrapper = styled.div`
   position: absolute;
-  top: 45%;
+  top: 0;
   left: 55%;
+
   width: 46%;
   min-height: 9rem;
   padding: 1.5rem;
@@ -132,9 +134,10 @@ export const SReactWrapper = styled.div`
 
 export const SVueWrapper = styled.div`
   position: absolute;
-  top: 0;
+  top: 45%;
   left: 55%;
   width: 46%;
+
   min-height: 9rem;
   padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
