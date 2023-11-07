@@ -55,7 +55,7 @@ export const SSkillsDetailWrapper = styled.div`
   top: 30%;
   left: -5%;
   width: 60%;
-  height: 65%;
+  height: 60%;
   margin-left: 33%;
   margin-top: 2%;
   h2 {
@@ -70,16 +70,17 @@ export const SSkillsDetailWrapper = styled.div`
     color: #eeee;
     margin: 0;
   }
+  div {
+    padding: 2rem;
+  }
 `;
 
 export const SJavaScriptWrapper = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-
   width: 46%;
   min-height: 9rem;
-  padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
 
@@ -99,7 +100,6 @@ export const SHtmlScriptWrapper = styled.div`
   left: 0;
   width: 46%;
   min-height: 9rem;
-  padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
   h2 {
@@ -119,7 +119,6 @@ export const SReactWrapper = styled.div`
 
   width: 46%;
   min-height: 9rem;
-  padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
   h2 {
@@ -139,7 +138,6 @@ export const SVueWrapper = styled.div`
   width: 46%;
 
   min-height: 9rem;
-  padding: 1.5rem;
   border: 0.3rem inset #ff4c29;
   border-radius: 1rem;
   h2 {

@@ -105,10 +105,8 @@ const MyContents = () => {
             <p>
               - ES6+ 문법에 익숙합니다. <br />
               - TypeScript를 사용할 수 있습니다. <br />
-              - Jest를 활용한 테스트코드 작성 경험이 있습니다. <br />
-              {/* JavsScript의 기본개념과 원리를 이해하고 있습니다. <br /> */}
-              - REST API에 대한 이해와 경험이 있으며, RESTful을 지향합니다.{" "}
-              <br />
+              - Jest를 활용한 테스트코드 작성 경험이 있습니다. <br />- REST
+              API에 대한 이해와 경험이 있으며, RESTful을 지향합니다. <br />
             </p>
           </SJavaScriptWrapper>
           <SReactWrapper>
@@ -142,9 +140,6 @@ const MyContents = () => {
             </p>
           </SVueWrapper>
         </SSkillsDetailWrapper>
-        {/* <SVideo autoPlay loop muted className="video" type="video/mp4">
-        <source src={video} type="video/mp4" />
-      </SVideo> */}
       </SMyContentsWrapper>
     </>
   );

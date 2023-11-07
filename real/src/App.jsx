@@ -1,5 +1,4 @@
-// App.js
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -7,9 +6,9 @@ import "./App.css";
 import { Mousewheel } from "swiper/modules";
 import First from "./component/First";
 import WhoAmI from "./component/WhoAmI";
-import Nav from "./component/Nav";
 import MyContents from "./component/MyContents";
 import MyProjects from "./component/MyProjects";
+import { Pagination } from "swiper/modules";
 
 export default function App() {
   const [isNavHidden, setIsNavHidden] = useState(false);
