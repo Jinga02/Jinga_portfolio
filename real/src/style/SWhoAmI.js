@@ -33,7 +33,7 @@ export const SContentWrapper = styled.div`
   padding: 2%;
   border-radius: 2rem;
   background-color: rgb(8, 32, 55);
-  border: 0.3rem solid #ff4c29;
+  border: 0.3em solid #ff4c29;
   @keyframes pulse {
     0% {
       transform: scale(1);
@@ -81,7 +81,7 @@ export const SContentWrapper = styled.div`
     position: absolute;
     width: 80%;
     height:20%;
-    left: 18%;
+    left: 10%;
     bottom:10%;
     #content {
       font-size: 2rem;
