@@ -115,7 +115,7 @@ const MyContents = () => {
               - 컴포넌트 기반 아키텍처를 이해하고, React Hooks를 활용할 수
               있습니다.
               <br />
-              - Redux, Redux Toolkit 상태관리 라이브러리를 사용할 수 있습니다.
+              - Redux, Redux Toolkit, react-query를 이해하고 사용하고 있습니다.
               <br />- styled-component 이해하고 사용하고 있습니다.
             </p>
           </SReactWrapper>
