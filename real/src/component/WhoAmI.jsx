@@ -49,10 +49,8 @@ const WhoAmI = () => {
             </div>
           </div>
           <div className={style.textTwo}>
-            <div className={style.wrapper}>
-              <p className={style.content}>{Content}</p>
-              <p className={style.contentTwo}>{ContentTwo}</p>
-            </div>
+            <p className={style.content}>{Content}</p>
+            <p className={style.contentTwo}>{ContentTwo}</p>
             <p className={style.textBottom}>
               이 모든 가치를 함께 지켜나가며 발전하는 모습을 보여드리겠습니다.
             </p>
