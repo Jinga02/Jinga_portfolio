@@ -116,7 +116,7 @@ const MyContents = () => {
               있습니다.
               <br />
               - Redux, Redux Toolkit, react-query를 이해하고 사용하고 있습니다.
-              <br />- styled-component 이해하고 사용하고 있습니다.
+              <br />- styled-component, tailwind를 이해하고 사용하고 있습니다.
             </p>
           </SReactWrapper>
           <SHtmlScriptWrapper>

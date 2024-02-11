@@ -8,7 +8,6 @@ import First from "./component/First";
 import WhoAmI from "./component/WhoAmI";
 import MyContents from "./component/MyContents";
 import MyProjects from "./component/MyProjects";
-import { Pagination } from "swiper/modules";
 
 export default function App() {
   const [isNavHidden, setIsNavHidden] = useState(false);
