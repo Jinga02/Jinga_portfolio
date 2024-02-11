@@ -22,10 +22,10 @@ const MyContents = () => {
       <Nav />
       <div id={style.wrap}>
         <div className={style.title}>
-          <p id="myContent">새로운 </p>
-          <p id="myContent">지식을 </p>
-          <p id="myContent">탐구하는</p>
-          <p id="myContent">개발자</p>
+          <p>새로운 </p>
+          <p>지식을 </p>
+          <p>탐구하는</p>
+          <p>개발자</p>
         </div>
 
         <Swiper
