@@ -33,16 +33,17 @@
   height: 100%;
   position: relative;
   padding: 2% 0 0 0;
+  h1 {
+    font-size: 8rem;
+    position: absolute;
+  }
 }
 
 .top {
   position: absolute;
   left: 10%;
   width: 100%;
-  h1 {
-    font-size: 8rem;
-    position: absolute;
-  }
+
   h1:nth-child(1) {
     color: transparent;
     -webkit-text-stroke: 2px #ff4c29;
@@ -58,10 +59,7 @@
   width: 100%;
   top: 30%;
   left: 5%;
-  h1 {
-    font-size: 8rem;
-    position: absolute;
-  }
+
   h1:nth-child(1) {
     color: transparent;
     -webkit-text-stroke: 2px #ff4c29;
@@ -76,13 +74,7 @@
   position: absolute;
   top: 55%;
   width: 100%;
-  right: 5%;
-
-  h1 {
-    font-size: 8rem;
-    position: absolute;
-    right: 3%;
-  }
+  left: 35%;
   h1:nth-child(1) {
     color: transparent;
     -webkit-text-stroke: 2px #ff4c29;
@@ -90,5 +82,69 @@
   h1:nth-child(2) {
     color: #ff4c29;
     animation: animate 2s ease-in-out infinite;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .wrap {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+  .mid {
+    top: 35%;
+  }
+  .bottom {
+    left: 45%;
+    top: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrap {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  .top {
+    top: 10%;
+  }
+  .mid {
+    top: 40%;
+  }
+  .bottom {
+    top: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrap {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .top {
+    top: 10%;
+  }
+  .mid {
+    top: 40%;
+  }
+  .bottom {
+    top: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrap {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  .top {
+    top: 10%;
+  }
+  .mid {
+    top: 40%;
+  }
+  .bottom {
+    top: 70%;
   }
 }

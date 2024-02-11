@@ -2,7 +2,7 @@ import Nav from "./Nav";
 import style from "../style/WhoAmI.module.css";
 const WhoAmI = () => {
   const Content = `
-    사용자 경험 협업적 문제 해결유지보수 클린코드
+    사용자 경험 협업적 문제 해결 유지보수 클린코드
   `;
   const ContentTwo = `
   새로운것에 대한 호기심과 도전의식
@@ -20,32 +20,19 @@ const WhoAmI = () => {
             <div className={style.myInfo}>
               <p>안녕하세요. 주니어 개발자 진재환입니다.</p>
               <p>
-                <span
-                  className={style.deep}
-                  class="animate__animated animate__pulse"
-                >
+                <span className={style.deep}>
                   "기초가 튼튼하면 길이 열린다."
                 </span>
                 라는 말을 항상 마음에 새기고 있습니다.
               </p>
               <p>
                 다양하고 넓은 기술도 중요하지만,{" "}
-                <span
-                  className={style.deep}
-                  class="animate__animated animate__pulse}"
-                >
-                  깊이있는 프론트엔드 개발자
-                </span>
-                가 되기 위해 노력하고 있습니다.
+                <span className={style.deep}>깊이있는 프론트엔드 개발자</span>가
+                되기 위해 노력하고 있습니다.
               </p>
               <p>
-                <span
-                  className={style.simple}
-                  class="animate__animated animate__pulse"
-                >
-                  "Simple is best"
-                </span>{" "}
-                라는 철학을 고수합니다.
+                <span className={style.simple}>"Simple is best"</span> 라는
+                철학을 고수합니다.
               </p>
               <p>
                 UI/UX, 코드, 디자인 모두 간단하면서 효과적인게 가장 중요하다고

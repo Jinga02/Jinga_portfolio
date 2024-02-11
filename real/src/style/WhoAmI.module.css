@@ -50,7 +50,12 @@
   font-size: 1rem;
   font-weight: 1000;
 }
-.simple,
+
+.simple {
+  color: #ff4c29;
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
 .deep {
   color: #ff4c29;
   font-size: 1.5rem;
@@ -112,7 +117,7 @@
     width: 0%;
   }
 }
-.textBottm {
+.textBottom {
   font-size: 2rem;
   font-weight: 1000;
 }
