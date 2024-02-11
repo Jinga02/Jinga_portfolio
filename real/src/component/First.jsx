@@ -1,15 +1,10 @@
 import React from "react";
-import {
-  SFirstWrapper,
-  STopWrapper,
-  SBottomWrapper,
-  SMidWrapper,
-} from "../style/SFirst";
+import style from "../style/First.module.css";
 
 const First = () => {
   return (
-    <SFirstWrapper>
-      <STopWrapper>
+    <div className={style.wrap}>
+      <div className={style.top}>
         <h1
           id="top"
           class="animate__animated animate__fadeInLeft animate__slow "
@@ -22,8 +17,8 @@ const First = () => {
         >
           Welcome to my portfolio
         </h1>
-      </STopWrapper>
-      <SMidWrapper>
+      </div>
+      <div className={style.mid}>
         <h1
           id="mid"
           class="animate__animated animate__fadeInRight animate__slow "
@@ -36,8 +31,8 @@ const First = () => {
         >
           FRONT-END DEV
         </h1>
-      </SMidWrapper>
-      <SBottomWrapper>
+      </div>
+      <div className={style.bottom}>
         <h1
           id="bottom"
           class="animate__animated animate__fadeInLeft animate__slow "
@@ -50,8 +45,8 @@ const First = () => {
         >
           JIN JAEHWAN
         </h1>
-      </SBottomWrapper>
-    </SFirstWrapper>
+      </div>
+    </div>
   );
 };
 

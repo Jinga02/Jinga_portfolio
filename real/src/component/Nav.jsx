@@ -1,17 +1,17 @@
-import { SNavWrapper, SIconWrapper, SHtwo, SHone } from "../style/SNav";
+import style from "../style/Nav.module.css";
 
 const Nav = () => {
   return (
-    <SNavWrapper>
-      <SHtwo>
-        <h2 id="dev">Frontend Developer</h2>
-        <h2 id="dev">Frontend Developer</h2>
-      </SHtwo>
-      <SHone>
-        <h1 id="name">Jin JaeHwan</h1>
-        <h1 id="name">Jin JaeHwan</h1>
-      </SHone>
-      <SIconWrapper>
+    <div id={style.wrap}>
+      <div className={style.class}>
+        <h2>Frontend Developer</h2>
+        <h2>Frontend Developer</h2>
+      </div>
+      <div className={style.name}>
+        <h1>Jin JaeHwan</h1>
+        <h1>Jin JaeHwan</h1>
+      </div>
+      <div className={style.icon}>
         <a href="https://github.com/Jinga02" target="_blank">
           <img
             src="https://github.com/Jinga02/MoviePjt/assets/110621233/a4549039-2711-44cd-8892-867b0f224618"
@@ -42,8 +42,8 @@ const Nav = () => {
             alt="메일"
           />
         </a>
-      </SIconWrapper>
-    </SNavWrapper>
+      </div>
+    </div>
   );
 };
 export default Nav;
