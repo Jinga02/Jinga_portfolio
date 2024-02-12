@@ -123,44 +123,31 @@
   }
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1200px) {
+  .title {
+    display: none;
+  }
+  #skills {
+    left: 10%;
+  }
   .detailSkills {
+    width: 80%;
+    margin-left: 13%;
     p {
-      font-size: 0.8rem;
       line-height: 2.3;
     }
-    h2 {
-      font-size: 2rem;
-    }
   }
-  .javascript {
-    h2 {
-      top: -13%;
-    }
-  }
-  .react {
-    h2 {
-      top: -13%;
-    }
-  }
-  .html {
-    h2 {
-      top: -13%;
-    }
-  }
-  .vue {
-    h2 {
-      top: -13%;
-    }
-  }
+
   #skill {
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 1024px) {
   #skills {
+    top: 20%;
     left: 10%;
   }
+
   .title {
     display: none;
   }
@@ -174,38 +161,81 @@
     }
     div {
       width: 90%;
-      margin: 10px 8rem;
+      margin: 3% 12rem;
       position: static;
       min-height: 0;
       padding: 20px;
+    }
+    h2 {
+      font-size: 1.9rem;
+    }
+  }
+  .javascript {
+    h2 {
+      top: 2rem;
+      left: 1rem;
+    }
+  }
+  .react {
+    h2 {
+      top: 11rem;
+      left: 1rem;
+    }
+  }
+  .html {
+    h2 {
+      top: 19.5rem;
+      left: 1rem;
+    }
+  }
+  .vue {
+    h2 {
+      top: 28.5rem;
+      left: 1rem;
     }
   }
 }
 @media screen and (max-width: 768px) {
   .detailSkills {
-    width: 80%;
-    margin: 3% 0;
-    left: -5%;
+    div {
+      width: 90%;
+      margin: 3% 11rem;
+      position: static;
+      min-height: 0;
+      padding: 20px;
+    }
+    h2 {
+      font-size: 1.6rem;
+      left: 2rem;
+    }
   }
 }
 @media screen and (max-width: 540px) {
   #skills {
-    display: none;
+    top: 23%;
   }
   .detailSkills {
-    width: 80%;
-    margin: 0 0;
-
+    div {
+      width: 70%;
+      margin: 3% 12rem;
+    }
     p {
       font-size: 0.8rem;
-      line-height: 1.5;
     }
+  }
+}
+
+@media screen and (max-width: 468px) {
+  #skill {
+    font-size: 1.5rem;
+  }
+  .detailSkills {
     div {
-      width: 90%;
-      margin: 15px 4rem;
-      position: static;
-      min-height: 0;
-      padding: 20px;
+      width: 70%;
+      margin: 3% 12rem;
+    }
+    p {
+      font-size: 0.8rem;
     }
   }
 }
