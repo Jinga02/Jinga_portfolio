@@ -1,0 +1,241 @@
+#wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.title {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  height: 50%;
+  p {
+    width: 25%;
+    font-size: 4rem;
+    margin: 0 0 0 5%;
+    background: linear-gradient(to left, #eeee, #eeee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+#skills {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+#skill {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #eeee, #eeee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes huerotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.detailSkills {
+  position: absolute;
+  top: 30%;
+  left: -5%;
+  width: 60%;
+  height: 60%;
+  margin-left: 33%;
+  margin-top: 2%;
+  h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+    position: absolute;
+    color: #ff4c29;
+    background-color: #001627;
+    transform: rotate(-5deg);
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #eeee;
+    margin: 0;
+  }
+  div {
+    width: 46%;
+    padding: 2rem;
+    min-height: 9rem;
+    border: 0.3rem inset #ff4c29;
+    border-radius: 1rem;
+    position: absolute;
+  }
+}
+
+.javascript {
+  top: 0;
+  left: 0;
+  h2 {
+    top: -15%;
+  }
+}
+.react {
+  top: 0;
+  left: 55%;
+  h2 {
+    top: -15%;
+  }
+}
+.html {
+  top: 45%;
+  left: 0;
+  h2 {
+    top: -20%;
+  }
+}
+.vue {
+  top: 45%;
+  left: 55%;
+  h2 {
+    top: -20%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .detailSkills {
+    p {
+      font-size: 0.9rem;
+      line-height: 2;
+    }
+  }
+  .title {
+    p {
+      font-size: 3.5rem;
+    }
+  }
+  #skill {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    display: none;
+  }
+  #skills {
+    left: 10%;
+  }
+  .detailSkills {
+    width: 80%;
+    margin-left: 13%;
+    p {
+      line-height: 2.3;
+    }
+  }
+
+  #skill {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #skills {
+    top: 20%;
+    left: 10%;
+  }
+
+  .title {
+    display: none;
+  }
+  .detailSkills {
+    width: 80%;
+    margin: 3% 5%;
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    div {
+      width: 90%;
+      margin: 3% 12rem;
+      position: static;
+      min-height: 0;
+      padding: 20px;
+    }
+    h2 {
+      font-size: 1.9rem;
+    }
+  }
+  .javascript {
+    h2 {
+      top: 2rem;
+      left: 1rem;
+    }
+  }
+  .react {
+    h2 {
+      top: 11rem;
+      left: 1rem;
+    }
+  }
+  .html {
+    h2 {
+      top: 19.5rem;
+      left: 1rem;
+    }
+  }
+  .vue {
+    h2 {
+      top: 28.5rem;
+      left: 1rem;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .detailSkills {
+    div {
+      width: 90%;
+      margin: 3% 11rem;
+      position: static;
+      min-height: 0;
+      padding: 20px;
+    }
+    h2 {
+      font-size: 1.6rem;
+      left: 2rem;
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  #skills {
+    top: 23%;
+  }
+  .detailSkills {
+    div {
+      width: 70%;
+      margin: 3% 12rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 468px) {
+  #skill {
+    font-size: 1.5rem;
+  }
+  .detailSkills {
+    div {
+      width: 70%;
+      margin: 3% 12rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}

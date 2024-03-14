@@ -1,0 +1,68 @@
+/* :root {
+  --color-bg-dark: #f5f5f5;
+  --color-bg: #fdfffd;
+  --color-white: white;
+  --color-grey: #d1d1d1;
+  --color-text: #22243b;
+  --color-accent: #f16e03;
+  --color-background: linear-gradient(
+    90deg,
+    rgba(36, 17, 0, 1) 0%,
+    rgba(241, 128, 15, 1) 0%,
+    rgba(255, 171, 0, 1) 100%
+  );
+}
+
+html.dark {
+  --color-bg-dark: #1a1c35;
+  --color-bg: #22243b;
+  --color-grey: #4e4e4e;
+  --color-text: #fdfffd;
+  --color-background: linear-gradient(
+    90deg,
+    rgba(36, 17, 0, 1) 0%,
+    rgba(4, 4, 34, 0.8491990546218487) 0%,
+    rgba(8, 7, 34, 0.8828125) 100%
+  );
+} */
+
+html {
+  position: relative;
+  height: 100%;
+}
+#app {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  /* background: #001627; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+}

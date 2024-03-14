@@ -1,0 +1,169 @@
+@keyframes motion {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+#wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  height: 50%;
+  p {
+    width: 25%;
+    font-size: 4rem;
+    font-weight: 1000;
+    margin: 0 0 0 5%;
+    background: linear-gradient(to left, #eeee, #eeee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.swiper {
+  position: absolute;
+  top: 25%;
+  width: 55%;
+  height: 60%;
+  margin: 0 0 5% 30%;
+
+  .swiper-button-next {
+    background-size: 50% auto;
+    background-position: center;
+  }
+}
+
+.swiperSlide {
+  width: 100%;
+  height: 100%;
+  padding: 1% 3% 3% 3%;
+  border-radius: 20px;
+  background-color: rgb(8, 32, 55);
+  border: 0.2rem inset #ff4c29;
+}
+
+.swiperHeader {
+  display: flex;
+  width: 100%;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.titleWrap {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+.linkWrap {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    border: 0.2rem inset white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    border: 0.2rem inset #ff4c29;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+  }
+
+  b {
+    color: #ff4c29;
+  }
+  img {
+    width: 3rem;
+    position: relative;
+    right: 1.2rem;
+    top: -3%;
+    transform: rotate(-10deg);
+    animation: motion 0.4s linear 0s infinite alternate;
+  }
+}
+
+video {
+  width: 100%;
+  height: 85%;
+  object-fit: fill;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1420px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    display: none;
+  }
+  .swiper {
+    width: 70%;
+    margin: 0 0 5% 10%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .swiperSlide {
+    p {
+      font-size: 1rem;
+    }
+    a {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .swiper {
+    height: 70%;
+  }
+  .swiperHeader {
+    display: block;
+  }
+  .titleWrap {
+    display: flex;
+    justify-content: center;
+    h2 {
+      margin: 0;
+    }
+  }
+  .linkWrap {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .swiperSlide {
+    p {
+      font-size: 1.2rem;
+    }
+    a {
+      font-size: 1.2rem;
+    }
+  }
+  /* video {
+    width: 100%;
+    height: 80%;
+    object-fit: fill;
+    border-radius: 10px;
+  } */
+}
+
+@media screen and (max-width: 540px) {
+  .swiperSlide {
+    p {
+      font-size: 1rem;
+    }
+    a {
+      font-size: 1rem;
+    }
+  }
+}
